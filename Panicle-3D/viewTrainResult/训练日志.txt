@@ -1,0 +1,5 @@
+log_train(3).txt -- Rice 第一次训练 93.
+log_train(4).txt -- conv 第一次训练 92.
+log_train(5).txt -- net  第一次训练 92.
+log_train_Rice.txt -- Rice 第二次训练 94.
+log_train_conv.txt -- conv 第二次训练 94.

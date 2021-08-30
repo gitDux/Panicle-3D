@@ -1,0 +1,4810 @@
+Namespace(batch_size=8, decay_rate=0.7, decay_step=200000, gpu=1, learning_rate=0.001, log_dir='log', max_epoch=80, model='pointconv_weight_density_n16', momentum=0.9, num_point=2048, optimizer='adam')
+pid: 253
+**** EPOCH 000 ****
+2020-11-30 15:22:04.646656
+ -- 010 / 125 --
+mean loss: 0.851908
+accuracy: 0.844861
+total IoU: 0.731393
+ -- 020 / 125 --
+mean loss: 0.446909
+accuracy: 0.925995
+total IoU: 0.862189
+ -- 030 / 125 --
+mean loss: 0.337476
+accuracy: 0.938892
+total IoU: 0.884822
+ -- 040 / 125 --
+mean loss: 0.328130
+accuracy: 0.938776
+total IoU: 0.884616
+ -- 050 / 125 --
+mean loss: 0.325006
+accuracy: 0.941254
+total IoU: 0.889027
+ -- 060 / 125 --
+mean loss: 0.295142
+accuracy: 0.945081
+total IoU: 0.895879
+ -- 070 / 125 --
+mean loss: 0.280769
+accuracy: 0.948578
+total IoU: 0.902186
+ -- 080 / 125 --
+mean loss: 0.296426
+accuracy: 0.946741
+total IoU: 0.898868
+ -- 090 / 125 --
+mean loss: 0.285525
+accuracy: 0.948364
+total IoU: 0.901799
+ -- 100 / 125 --
+mean loss: 0.280297
+accuracy: 0.947101
+total IoU: 0.899517
+ -- 110 / 125 --
+mean loss: 0.253113
+accuracy: 0.950787
+total IoU: 0.906191
+ -- 120 / 125 --
+mean loss: 0.259708
+accuracy: 0.950995
+total IoU: 0.906568
+one epoch time: 86.0879
+2020-11-30 15:23:30.734602
+---- EPOCH 000 EVALUATION ----
+eval mean loss: 0.224640
+eval point avg class IoU: 0.554679
+eval point accuracy: 0.636501
+eval point avg class acc: 0.636501
+------- IoU --------
+class 1, acc: 0.554679 
+
+Model saved in file: log2020_11_30_15_21_34/model.ckpt
+**** EPOCH 001 ****
+2020-11-30 15:23:39.738693
+ -- 010 / 125 --
+mean loss: 0.242878
+accuracy: 0.953577
+total IoU: 0.911272
+ -- 020 / 125 --
+mean loss: 0.247234
+accuracy: 0.952246
+total IoU: 0.908845
+ -- 030 / 125 --
+mean loss: 0.232971
+accuracy: 0.953546
+total IoU: 0.911217
+ -- 040 / 125 --
+mean loss: 0.219297
+accuracy: 0.956732
+total IoU: 0.917053
+ -- 050 / 125 --
+mean loss: 0.222303
+accuracy: 0.956262
+total IoU: 0.916190
+ -- 060 / 125 --
+mean loss: 0.223385
+accuracy: 0.956354
+total IoU: 0.916358
+ -- 070 / 125 --
+mean loss: 0.224360
+accuracy: 0.956915
+total IoU: 0.917390
+ -- 080 / 125 --
+mean loss: 0.219096
+accuracy: 0.958441
+total IoU: 0.920199
+ -- 090 / 125 --
+mean loss: 0.201565
+accuracy: 0.960913
+total IoU: 0.924767
+ -- 100 / 125 --
+mean loss: 0.204310
+accuracy: 0.959119
+total IoU: 0.921449
+ -- 110 / 125 --
+mean loss: 0.206402
+accuracy: 0.959558
+total IoU: 0.922260
+ -- 120 / 125 --
+mean loss: 0.189324
+accuracy: 0.962231
+total IoU: 0.927212
+one epoch time: 69.6395
+2020-11-30 15:24:49.378224
+---- EPOCH 001 EVALUATION ----
+eval mean loss: 0.202475
+eval point avg class IoU: 0.573658
+eval point accuracy: 0.650943
+eval point avg class acc: 0.650943
+------- IoU --------
+class 1, acc: 0.573658 
+
+**** EPOCH 002 ****
+2020-11-30 15:24:55.829764
+ -- 010 / 125 --
+mean loss: 0.206733
+accuracy: 0.958966
+total IoU: 0.921167
+ -- 020 / 125 --
+mean loss: 0.191307
+accuracy: 0.963690
+total IoU: 0.929925
+ -- 030 / 125 --
+mean loss: 0.206242
+accuracy: 0.958862
+total IoU: 0.920975
+ -- 040 / 125 --
+mean loss: 0.190335
+accuracy: 0.961334
+total IoU: 0.925547
+ -- 050 / 125 --
+mean loss: 0.191775
+accuracy: 0.962073
+total IoU: 0.926917
+ -- 060 / 125 --
+mean loss: 0.198219
+accuracy: 0.959003
+total IoU: 0.921235
+ -- 070 / 125 --
+mean loss: 0.200781
+accuracy: 0.962982
+total IoU: 0.928607
+ -- 080 / 125 --
+mean loss: 0.176427
+accuracy: 0.965601
+total IoU: 0.933489
+ -- 090 / 125 --
+mean loss: 0.190154
+accuracy: 0.961969
+total IoU: 0.926725
+ -- 100 / 125 --
+mean loss: 0.198843
+accuracy: 0.961145
+total IoU: 0.925197
+ -- 110 / 125 --
+mean loss: 0.178497
+accuracy: 0.963849
+total IoU: 0.930220
+ -- 120 / 125 --
+mean loss: 0.167061
+accuracy: 0.968573
+total IoU: 0.939061
+one epoch time: 68.9373
+2020-11-30 15:26:04.767120
+---- EPOCH 002 EVALUATION ----
+eval mean loss: 0.163231
+eval point avg class IoU: 0.665357
+eval point accuracy: 0.754446
+eval point avg class acc: 0.754446
+------- IoU --------
+class 1, acc: 0.665357 
+
+**** EPOCH 003 ****
+2020-11-30 15:26:11.147479
+ -- 010 / 125 --
+mean loss: 0.140864
+accuracy: 0.971637
+total IoU: 0.944838
+ -- 020 / 125 --
+mean loss: 0.168921
+accuracy: 0.967407
+total IoU: 0.936872
+ -- 030 / 125 --
+mean loss: 0.162058
+accuracy: 0.968396
+total IoU: 0.938728
+ -- 040 / 125 --
+mean loss: 0.181412
+accuracy: 0.965106
+total IoU: 0.932565
+ -- 050 / 125 --
+mean loss: 0.170306
+accuracy: 0.966669
+total IoU: 0.935488
+ -- 060 / 125 --
+mean loss: 0.154371
+accuracy: 0.970245
+total IoU: 0.942210
+ -- 070 / 125 --
+mean loss: 0.158740
+accuracy: 0.968134
+total IoU: 0.938235
+ -- 080 / 125 --
+mean loss: 0.159777
+accuracy: 0.968488
+total IoU: 0.938900
+ -- 090 / 125 --
+mean loss: 0.156654
+accuracy: 0.968341
+total IoU: 0.938625
+ -- 100 / 125 --
+mean loss: 0.163373
+accuracy: 0.967792
+total IoU: 0.937594
+ -- 110 / 125 --
+mean loss: 0.175810
+accuracy: 0.964752
+total IoU: 0.931905
+ -- 120 / 125 --
+mean loss: 0.174856
+accuracy: 0.965985
+total IoU: 0.934208
+one epoch time: 68.4157
+2020-11-30 15:27:19.563190
+---- EPOCH 003 EVALUATION ----
+eval mean loss: 0.163940
+eval point avg class IoU: 0.646365
+eval point accuracy: 0.704581
+eval point avg class acc: 0.704581
+------- IoU --------
+class 1, acc: 0.646365 
+
+**** EPOCH 004 ****
+2020-11-30 15:27:25.837150
+ -- 010 / 125 --
+mean loss: 0.160879
+accuracy: 0.969312
+total IoU: 0.940451
+ -- 020 / 125 --
+mean loss: 0.154132
+accuracy: 0.968835
+total IoU: 0.939555
+ -- 030 / 125 --
+mean loss: 0.144568
+accuracy: 0.971680
+total IoU: 0.944919
+ -- 040 / 125 --
+mean loss: 0.153175
+accuracy: 0.968976
+total IoU: 0.939819
+ -- 050 / 125 --
+mean loss: 0.161257
+accuracy: 0.969257
+total IoU: 0.940347
+ -- 060 / 125 --
+mean loss: 0.160421
+accuracy: 0.966827
+total IoU: 0.935785
+ -- 070 / 125 --
+mean loss: 0.148507
+accuracy: 0.970221
+total IoU: 0.942164
+ -- 080 / 125 --
+mean loss: 0.158275
+accuracy: 0.968262
+total IoU: 0.938476
+ -- 090 / 125 --
+mean loss: 0.151534
+accuracy: 0.969659
+total IoU: 0.941106
+ -- 100 / 125 --
+mean loss: 0.170799
+accuracy: 0.967596
+total IoU: 0.937227
+ -- 110 / 125 --
+mean loss: 0.148892
+accuracy: 0.969873
+total IoU: 0.941508
+ -- 120 / 125 --
+mean loss: 0.152678
+accuracy: 0.971179
+total IoU: 0.943973
+one epoch time: 68.4968
+2020-11-30 15:28:34.333992
+---- EPOCH 004 EVALUATION ----
+eval mean loss: 0.141043
+eval point avg class IoU: 0.695090
+eval point accuracy: 0.771080
+eval point avg class acc: 0.771080
+------- IoU --------
+class 1, acc: 0.695090 
+
+**** EPOCH 005 ****
+2020-11-30 15:28:40.718149
+ -- 010 / 125 --
+mean loss: 0.142517
+accuracy: 0.972198
+total IoU: 0.945901
+ -- 020 / 125 --
+mean loss: 0.139509
+accuracy: 0.971747
+total IoU: 0.945046
+ -- 030 / 125 --
+mean loss: 0.141299
+accuracy: 0.971643
+total IoU: 0.944850
+ -- 040 / 125 --
+mean loss: 0.135376
+accuracy: 0.972870
+total IoU: 0.947173
+ -- 050 / 125 --
+mean loss: 0.155276
+accuracy: 0.969202
+total IoU: 0.940244
+ -- 060 / 125 --
+mean loss: 0.142350
+accuracy: 0.970978
+total IoU: 0.943593
+ -- 070 / 125 --
+mean loss: 0.123811
+accuracy: 0.976434
+total IoU: 0.953954
+ -- 080 / 125 --
+mean loss: 0.148229
+accuracy: 0.970758
+total IoU: 0.943178
+ -- 090 / 125 --
+mean loss: 0.128525
+accuracy: 0.975061
+total IoU: 0.951336
+ -- 100 / 125 --
+mean loss: 0.126719
+accuracy: 0.975287
+total IoU: 0.951766
+ -- 110 / 125 --
+mean loss: 0.129271
+accuracy: 0.974377
+total IoU: 0.950035
+ -- 120 / 125 --
+mean loss: 0.133724
+accuracy: 0.972742
+total IoU: 0.946930
+one epoch time: 68.8009
+2020-11-30 15:29:49.519107
+---- EPOCH 005 EVALUATION ----
+eval mean loss: 0.134075
+eval point avg class IoU: 0.708145
+eval point accuracy: 0.784264
+eval point avg class acc: 0.784264
+------- IoU --------
+class 1, acc: 0.708145 
+
+**** EPOCH 006 ****
+2020-11-30 15:29:55.869733
+ -- 010 / 125 --
+mean loss: 0.115550
+accuracy: 0.977112
+total IoU: 0.955248
+ -- 020 / 125 --
+mean loss: 0.132913
+accuracy: 0.973499
+total IoU: 0.948365
+ -- 030 / 125 --
+mean loss: 0.126578
+accuracy: 0.973901
+total IoU: 0.949130
+ -- 040 / 125 --
+mean loss: 0.117272
+accuracy: 0.976038
+total IoU: 0.953197
+ -- 050 / 125 --
+mean loss: 0.135844
+accuracy: 0.972754
+total IoU: 0.946953
+ -- 060 / 125 --
+mean loss: 0.122581
+accuracy: 0.975177
+total IoU: 0.951557
+ -- 070 / 125 --
+mean loss: 0.126510
+accuracy: 0.974731
+total IoU: 0.950708
+ -- 080 / 125 --
+mean loss: 0.121140
+accuracy: 0.976178
+total IoU: 0.953465
+ -- 090 / 125 --
+mean loss: 0.116631
+accuracy: 0.977338
+total IoU: 0.955680
+ -- 100 / 125 --
+mean loss: 0.127027
+accuracy: 0.974939
+total IoU: 0.951103
+ -- 110 / 125 --
+mean loss: 0.116155
+accuracy: 0.977100
+total IoU: 0.955225
+ -- 120 / 125 --
+mean loss: 0.119532
+accuracy: 0.976971
+total IoU: 0.954980
+one epoch time: 68.3972
+2020-11-30 15:31:04.267033
+---- EPOCH 006 EVALUATION ----
+eval mean loss: 0.139537
+eval point avg class IoU: 0.701590
+eval point accuracy: 0.800395
+eval point avg class acc: 0.800395
+------- IoU --------
+class 1, acc: 0.701590 
+
+**** EPOCH 007 ****
+2020-11-30 15:31:10.494390
+ -- 010 / 125 --
+mean loss: 0.120560
+accuracy: 0.975897
+total IoU: 0.952929
+ -- 020 / 125 --
+mean loss: 0.118438
+accuracy: 0.975684
+total IoU: 0.952522
+ -- 030 / 125 --
+mean loss: 0.130191
+accuracy: 0.974091
+total IoU: 0.949490
+ -- 040 / 125 --
+mean loss: 0.109399
+accuracy: 0.978052
+total IoU: 0.957046
+ -- 050 / 125 --
+mean loss: 0.117297
+accuracy: 0.976318
+total IoU: 0.953732
+ -- 060 / 125 --
+mean loss: 0.114014
+accuracy: 0.977869
+total IoU: 0.956696
+ -- 070 / 125 --
+mean loss: 0.119269
+accuracy: 0.976196
+total IoU: 0.953499
+ -- 080 / 125 --
+mean loss: 0.122348
+accuracy: 0.975714
+total IoU: 0.952580
+ -- 090 / 125 --
+mean loss: 0.120403
+accuracy: 0.976099
+total IoU: 0.953313
+ -- 100 / 125 --
+mean loss: 0.109241
+accuracy: 0.978107
+total IoU: 0.957151
+ -- 110 / 125 --
+mean loss: 0.110530
+accuracy: 0.978235
+total IoU: 0.957397
+ -- 120 / 125 --
+mean loss: 0.120540
+accuracy: 0.975281
+total IoU: 0.951754
+one epoch time: 68.7287
+2020-11-30 15:32:19.223181
+---- EPOCH 007 EVALUATION ----
+eval mean loss: 0.121330
+eval point avg class IoU: 0.742358
+eval point accuracy: 0.808766
+eval point avg class acc: 0.808766
+------- IoU --------
+class 1, acc: 0.742358 
+
+**** EPOCH 008 ****
+2020-11-30 15:32:25.432046
+ -- 010 / 125 --
+mean loss: 0.119343
+accuracy: 0.976056
+total IoU: 0.953232
+ -- 020 / 125 --
+mean loss: 0.112673
+accuracy: 0.977142
+total IoU: 0.955306
+ -- 030 / 125 --
+mean loss: 0.104886
+accuracy: 0.979248
+total IoU: 0.959340
+ -- 040 / 125 --
+mean loss: 0.127780
+accuracy: 0.973938
+total IoU: 0.949200
+ -- 050 / 125 --
+mean loss: 0.128176
+accuracy: 0.973755
+total IoU: 0.948852
+ -- 060 / 125 --
+mean loss: 0.120371
+accuracy: 0.975763
+total IoU: 0.952673
+ -- 070 / 125 --
+mean loss: 0.124034
+accuracy: 0.974969
+total IoU: 0.951161
+ -- 080 / 125 --
+mean loss: 0.127231
+accuracy: 0.973511
+total IoU: 0.948389
+ -- 090 / 125 --
+mean loss: 0.111855
+accuracy: 0.977521
+total IoU: 0.956030
+ -- 100 / 125 --
+mean loss: 0.106736
+accuracy: 0.977942
+total IoU: 0.956836
+ -- 110 / 125 --
+mean loss: 0.110973
+accuracy: 0.978094
+total IoU: 0.957128
+ -- 120 / 125 --
+mean loss: 0.110652
+accuracy: 0.977856
+total IoU: 0.956672
+one epoch time: 68.3770
+2020-11-30 15:33:33.809094
+---- EPOCH 008 EVALUATION ----
+eval mean loss: 0.143880
+eval point avg class IoU: 0.725578
+eval point accuracy: 0.809592
+eval point avg class acc: 0.809592
+------- IoU --------
+class 1, acc: 0.725578 
+
+**** EPOCH 009 ****
+2020-11-30 15:33:39.998950
+ -- 010 / 125 --
+mean loss: 0.111739
+accuracy: 0.977844
+total IoU: 0.956649
+ -- 020 / 125 --
+mean loss: 0.106872
+accuracy: 0.978296
+total IoU: 0.957514
+ -- 030 / 125 --
+mean loss: 0.106172
+accuracy: 0.978296
+total IoU: 0.957514
+ -- 040 / 125 --
+mean loss: 0.107063
+accuracy: 0.978540
+total IoU: 0.957982
+ -- 050 / 125 --
+mean loss: 0.100065
+accuracy: 0.980054
+total IoU: 0.960888
+ -- 060 / 125 --
+mean loss: 0.110708
+accuracy: 0.977783
+total IoU: 0.956532
+ -- 070 / 125 --
+mean loss: 0.113268
+accuracy: 0.977148
+total IoU: 0.955318
+ -- 080 / 125 --
+mean loss: 0.106461
+accuracy: 0.978082
+total IoU: 0.957105
+ -- 090 / 125 --
+mean loss: 0.102447
+accuracy: 0.979675
+total IoU: 0.960160
+ -- 100 / 125 --
+mean loss: 0.102311
+accuracy: 0.979822
+total IoU: 0.960442
+ -- 110 / 125 --
+mean loss: 0.113896
+accuracy: 0.977026
+total IoU: 0.955085
+ -- 120 / 125 --
+mean loss: 0.096860
+accuracy: 0.980872
+total IoU: 0.962461
+one epoch time: 68.3908
+2020-11-30 15:34:48.389849
+---- EPOCH 009 EVALUATION ----
+eval mean loss: 0.122953
+eval point avg class IoU: 0.737716
+eval point accuracy: 0.817676
+eval point avg class acc: 0.817676
+------- IoU --------
+class 1, acc: 0.737716 
+
+**** EPOCH 010 ****
+2020-11-30 15:34:54.593258
+ -- 010 / 125 --
+mean loss: 0.097482
+accuracy: 0.980029
+total IoU: 0.960841
+ -- 020 / 125 --
+mean loss: 0.103348
+accuracy: 0.978943
+total IoU: 0.958754
+ -- 030 / 125 --
+mean loss: 0.106596
+accuracy: 0.978113
+total IoU: 0.957163
+ -- 040 / 125 --
+mean loss: 0.107511
+accuracy: 0.978229
+total IoU: 0.957385
+ -- 050 / 125 --
+mean loss: 0.103418
+accuracy: 0.978650
+total IoU: 0.958192
+ -- 060 / 125 --
+mean loss: 0.110086
+accuracy: 0.977698
+total IoU: 0.956369
+ -- 070 / 125 --
+mean loss: 0.101223
+accuracy: 0.979443
+total IoU: 0.959715
+ -- 080 / 125 --
+mean loss: 0.103102
+accuracy: 0.979120
+total IoU: 0.959094
+ -- 090 / 125 --
+mean loss: 0.097324
+accuracy: 0.980432
+total IoU: 0.961615
+ -- 100 / 125 --
+mean loss: 0.102831
+accuracy: 0.978729
+total IoU: 0.958345
+ -- 110 / 125 --
+mean loss: 0.100964
+accuracy: 0.979559
+total IoU: 0.959938
+ -- 120 / 125 --
+mean loss: 0.098642
+accuracy: 0.980212
+total IoU: 0.961193
+one epoch time: 68.3757
+2020-11-30 15:36:02.968986
+---- EPOCH 010 EVALUATION ----
+eval mean loss: 0.124068
+eval point avg class IoU: 0.749334
+eval point accuracy: 0.868511
+eval point avg class acc: 0.868511
+------- IoU --------
+class 1, acc: 0.749334 
+
+Model saved in file: log2020_11_30_15_21_34/model.ckpt
+**** EPOCH 011 ****
+2020-11-30 15:36:10.296599
+ -- 010 / 125 --
+mean loss: 0.100160
+accuracy: 0.979712
+total IoU: 0.960231
+ -- 020 / 125 --
+mean loss: 0.096402
+accuracy: 0.981079
+total IoU: 0.962861
+ -- 030 / 125 --
+mean loss: 0.096159
+accuracy: 0.981403
+total IoU: 0.963484
+ -- 040 / 125 --
+mean loss: 0.098380
+accuracy: 0.980151
+total IoU: 0.961075
+ -- 050 / 125 --
+mean loss: 0.101070
+accuracy: 0.979205
+total IoU: 0.959258
+ -- 060 / 125 --
+mean loss: 0.093421
+accuracy: 0.981189
+total IoU: 0.963073
+ -- 070 / 125 --
+mean loss: 0.104934
+accuracy: 0.978479
+total IoU: 0.957865
+ -- 080 / 125 --
+mean loss: 0.101239
+accuracy: 0.979279
+total IoU: 0.959398
+ -- 090 / 125 --
+mean loss: 0.099804
+accuracy: 0.979205
+total IoU: 0.959258
+ -- 100 / 125 --
+mean loss: 0.100462
+accuracy: 0.979797
+total IoU: 0.960395
+ -- 110 / 125 --
+mean loss: 0.095264
+accuracy: 0.980634
+total IoU: 0.962003
+ -- 120 / 125 --
+mean loss: 0.104725
+accuracy: 0.979492
+total IoU: 0.959809
+one epoch time: 69.0527
+2020-11-30 15:37:19.349281
+---- EPOCH 011 EVALUATION ----
+eval mean loss: 0.198575
+eval point avg class IoU: 0.642668
+eval point accuracy: 0.882558
+eval point avg class acc: 0.882558
+------- IoU --------
+class 1, acc: 0.642668 
+
+**** EPOCH 012 ****
+2020-11-30 15:37:25.664110
+ -- 010 / 125 --
+mean loss: 0.102426
+accuracy: 0.979492
+total IoU: 0.959809
+ -- 020 / 125 --
+mean loss: 0.103529
+accuracy: 0.978998
+total IoU: 0.958860
+ -- 030 / 125 --
+mean loss: 0.107757
+accuracy: 0.978156
+total IoU: 0.957245
+ -- 040 / 125 --
+mean loss: 0.091986
+accuracy: 0.981012
+total IoU: 0.962732
+ -- 050 / 125 --
+mean loss: 0.093182
+accuracy: 0.980762
+total IoU: 0.962250
+ -- 060 / 125 --
+mean loss: 0.101685
+accuracy: 0.980060
+total IoU: 0.960899
+ -- 070 / 125 --
+mean loss: 0.099261
+accuracy: 0.980182
+total IoU: 0.961134
+ -- 080 / 125 --
+mean loss: 0.101850
+accuracy: 0.978809
+total IoU: 0.958497
+ -- 090 / 125 --
+mean loss: 0.107901
+accuracy: 0.978271
+total IoU: 0.957467
+ -- 100 / 125 --
+mean loss: 0.096010
+accuracy: 0.979742
+total IoU: 0.960289
+ -- 110 / 125 --
+mean loss: 0.093245
+accuracy: 0.981201
+total IoU: 0.963096
+ -- 120 / 125 --
+mean loss: 0.097103
+accuracy: 0.980310
+total IoU: 0.961381
+one epoch time: 68.1278
+2020-11-30 15:38:33.791914
+---- EPOCH 012 EVALUATION ----
+eval mean loss: 0.116741
+eval point avg class IoU: 0.767271
+eval point accuracy: 0.840704
+eval point avg class acc: 0.840704
+------- IoU --------
+class 1, acc: 0.767271 
+
+**** EPOCH 013 ****
+2020-11-30 15:38:40.141592
+ -- 010 / 125 --
+mean loss: 0.088878
+accuracy: 0.982043
+total IoU: 0.964720
+ -- 020 / 125 --
+mean loss: 0.091187
+accuracy: 0.981421
+total IoU: 0.963520
+ -- 030 / 125 --
+mean loss: 0.093082
+accuracy: 0.981165
+total IoU: 0.963026
+ -- 040 / 125 --
+mean loss: 0.087361
+accuracy: 0.981927
+total IoU: 0.964497
+ -- 050 / 125 --
+mean loss: 0.095801
+accuracy: 0.980548
+total IoU: 0.961839
+ -- 060 / 125 --
+mean loss: 0.090349
+accuracy: 0.981738
+total IoU: 0.964132
+ -- 070 / 125 --
+mean loss: 0.090971
+accuracy: 0.981659
+total IoU: 0.963979
+ -- 080 / 125 --
+mean loss: 0.087185
+accuracy: 0.981995
+total IoU: 0.964626
+ -- 090 / 125 --
+mean loss: 0.093714
+accuracy: 0.980908
+total IoU: 0.962532
+ -- 100 / 125 --
+mean loss: 0.091804
+accuracy: 0.981281
+total IoU: 0.963249
+ -- 110 / 125 --
+mean loss: 0.098538
+accuracy: 0.979999
+total IoU: 0.960782
+ -- 120 / 125 --
+mean loss: 0.103890
+accuracy: 0.978748
+total IoU: 0.958380
+one epoch time: 67.7712
+2020-11-30 15:39:47.912796
+---- EPOCH 013 EVALUATION ----
+eval mean loss: 0.111337
+eval point avg class IoU: 0.761889
+eval point accuracy: 0.853530
+eval point avg class acc: 0.853530
+------- IoU --------
+class 1, acc: 0.761889 
+
+**** EPOCH 014 ****
+2020-11-30 15:39:54.190636
+ -- 010 / 125 --
+mean loss: 0.098189
+accuracy: 0.980078
+total IoU: 0.960935
+ -- 020 / 125 --
+mean loss: 0.083920
+accuracy: 0.983203
+total IoU: 0.966961
+ -- 030 / 125 --
+mean loss: 0.088067
+accuracy: 0.982233
+total IoU: 0.965086
+ -- 040 / 125 --
+mean loss: 0.087996
+accuracy: 0.982257
+total IoU: 0.965133
+ -- 050 / 125 --
+mean loss: 0.094823
+accuracy: 0.980713
+total IoU: 0.962156
+ -- 060 / 125 --
+mean loss: 0.089005
+accuracy: 0.981635
+total IoU: 0.963931
+ -- 070 / 125 --
+mean loss: 0.090193
+accuracy: 0.981824
+total IoU: 0.964296
+ -- 080 / 125 --
+mean loss: 0.092691
+accuracy: 0.981110
+total IoU: 0.962920
+ -- 090 / 125 --
+mean loss: 0.099134
+accuracy: 0.979718
+total IoU: 0.960242
+ -- 100 / 125 --
+mean loss: 0.101352
+accuracy: 0.979260
+total IoU: 0.959363
+ -- 110 / 125 --
+mean loss: 0.098213
+accuracy: 0.980084
+total IoU: 0.960946
+ -- 120 / 125 --
+mean loss: 0.090021
+accuracy: 0.981946
+total IoU: 0.964532
+one epoch time: 67.7785
+2020-11-30 15:41:01.969175
+---- EPOCH 014 EVALUATION ----
+eval mean loss: 0.120207
+eval point avg class IoU: 0.737623
+eval point accuracy: 0.800216
+eval point avg class acc: 0.800216
+------- IoU --------
+class 1, acc: 0.737623 
+
+**** EPOCH 015 ****
+2020-11-30 15:41:08.068400
+ -- 010 / 125 --
+mean loss: 0.095853
+accuracy: 0.980292
+total IoU: 0.961345
+ -- 020 / 125 --
+mean loss: 0.084479
+accuracy: 0.982825
+total IoU: 0.966229
+ -- 030 / 125 --
+mean loss: 0.087195
+accuracy: 0.981903
+total IoU: 0.964450
+ -- 040 / 125 --
+mean loss: 0.092763
+accuracy: 0.982092
+total IoU: 0.964815
+ -- 050 / 125 --
+mean loss: 0.095499
+accuracy: 0.980768
+total IoU: 0.962261
+ -- 060 / 125 --
+mean loss: 0.093187
+accuracy: 0.981055
+total IoU: 0.962814
+ -- 070 / 125 --
+mean loss: 0.091374
+accuracy: 0.981647
+total IoU: 0.963955
+ -- 080 / 125 --
+mean loss: 0.099221
+accuracy: 0.979236
+total IoU: 0.959316
+ -- 090 / 125 --
+mean loss: 0.090897
+accuracy: 0.981531
+total IoU: 0.963731
+ -- 100 / 125 --
+mean loss: 0.087069
+accuracy: 0.982397
+total IoU: 0.965404
+ -- 110 / 125 --
+mean loss: 0.104951
+accuracy: 0.978534
+total IoU: 0.957970
+ -- 120 / 125 --
+mean loss: 0.098347
+accuracy: 0.979791
+total IoU: 0.960383
+one epoch time: 67.9111
+2020-11-30 15:42:15.979577
+---- EPOCH 015 EVALUATION ----
+eval mean loss: 0.117261
+eval point avg class IoU: 0.748358
+eval point accuracy: 0.826729
+eval point avg class acc: 0.826729
+------- IoU --------
+class 1, acc: 0.748358 
+
+**** EPOCH 016 ****
+2020-11-30 15:42:22.145932
+ -- 010 / 125 --
+mean loss: 0.093127
+accuracy: 0.980664
+total IoU: 0.962062
+ -- 020 / 125 --
+mean loss: 0.086334
+accuracy: 0.981866
+total IoU: 0.964379
+ -- 030 / 125 --
+mean loss: 0.090927
+accuracy: 0.981555
+total IoU: 0.963778
+ -- 040 / 125 --
+mean loss: 0.090341
+accuracy: 0.981573
+total IoU: 0.963814
+ -- 050 / 125 --
+mean loss: 0.079272
+accuracy: 0.984094
+total IoU: 0.968687
+ -- 060 / 125 --
+mean loss: 0.088898
+accuracy: 0.982007
+total IoU: 0.964650
+ -- 070 / 125 --
+mean loss: 0.091704
+accuracy: 0.980884
+total IoU: 0.962485
+ -- 080 / 125 --
+mean loss: 0.086956
+accuracy: 0.982239
+total IoU: 0.965097
+ -- 090 / 125 --
+mean loss: 0.089310
+accuracy: 0.982336
+total IoU: 0.965286
+ -- 100 / 125 --
+mean loss: 0.091620
+accuracy: 0.980975
+total IoU: 0.962661
+ -- 110 / 125 --
+mean loss: 0.086000
+accuracy: 0.982599
+total IoU: 0.965793
+ -- 120 / 125 --
+mean loss: 0.086296
+accuracy: 0.982404
+total IoU: 0.965416
+one epoch time: 67.7611
+2020-11-30 15:43:29.907092
+---- EPOCH 016 EVALUATION ----
+eval mean loss: 0.130843
+eval point avg class IoU: 0.740357
+eval point accuracy: 0.775067
+eval point avg class acc: 0.775067
+------- IoU --------
+class 1, acc: 0.740357 
+
+**** EPOCH 017 ****
+2020-11-30 15:43:36.124601
+ -- 010 / 125 --
+mean loss: 0.084347
+accuracy: 0.982538
+total IoU: 0.965675
+ -- 020 / 125 --
+mean loss: 0.087862
+accuracy: 0.981519
+total IoU: 0.963708
+ -- 030 / 125 --
+mean loss: 0.089659
+accuracy: 0.981567
+total IoU: 0.963802
+ -- 040 / 125 --
+mean loss: 0.083251
+accuracy: 0.983020
+total IoU: 0.966607
+ -- 050 / 125 --
+mean loss: 0.079156
+accuracy: 0.983844
+total IoU: 0.968202
+ -- 060 / 125 --
+mean loss: 0.087358
+accuracy: 0.982208
+total IoU: 0.965039
+ -- 070 / 125 --
+mean loss: 0.090354
+accuracy: 0.981787
+total IoU: 0.964226
+ -- 080 / 125 --
+mean loss: 0.095697
+accuracy: 0.981189
+total IoU: 0.963073
+ -- 090 / 125 --
+mean loss: 0.092783
+accuracy: 0.981506
+total IoU: 0.963684
+ -- 100 / 125 --
+mean loss: 0.093957
+accuracy: 0.980237
+total IoU: 0.961240
+ -- 110 / 125 --
+mean loss: 0.104095
+accuracy: 0.979816
+total IoU: 0.960430
+ -- 120 / 125 --
+mean loss: 0.090582
+accuracy: 0.981799
+total IoU: 0.964249
+one epoch time: 68.3168
+2020-11-30 15:44:44.441429
+---- EPOCH 017 EVALUATION ----
+eval mean loss: 0.107532
+eval point avg class IoU: 0.772914
+eval point accuracy: 0.840417
+eval point avg class acc: 0.840417
+------- IoU --------
+class 1, acc: 0.772914 
+
+**** EPOCH 018 ****
+2020-11-30 15:44:50.986982
+ -- 010 / 125 --
+mean loss: 0.092307
+accuracy: 0.981464
+total IoU: 0.963602
+ -- 020 / 125 --
+mean loss: 0.086650
+accuracy: 0.982190
+total IoU: 0.965003
+ -- 030 / 125 --
+mean loss: 0.084141
+accuracy: 0.982904
+total IoU: 0.966383
+ -- 040 / 125 --
+mean loss: 0.088151
+accuracy: 0.981848
+total IoU: 0.964344
+ -- 050 / 125 --
+mean loss: 0.080524
+accuracy: 0.983765
+total IoU: 0.968048
+ -- 060 / 125 --
+mean loss: 0.085296
+accuracy: 0.982825
+total IoU: 0.966229
+ -- 070 / 125 --
+mean loss: 0.091656
+accuracy: 0.981262
+total IoU: 0.963214
+ -- 080 / 125 --
+mean loss: 0.081665
+accuracy: 0.983606
+total IoU: 0.967741
+ -- 090 / 125 --
+mean loss: 0.088831
+accuracy: 0.981641
+total IoU: 0.963943
+ -- 100 / 125 --
+mean loss: 0.081845
+accuracy: 0.983008
+total IoU: 0.966583
+ -- 110 / 125 --
+mean loss: 0.083364
+accuracy: 0.983252
+total IoU: 0.967056
+ -- 120 / 125 --
+mean loss: 0.083589
+accuracy: 0.982843
+total IoU: 0.966265
+one epoch time: 69.5013
+2020-11-30 15:46:00.488299
+---- EPOCH 018 EVALUATION ----
+eval mean loss: 0.102983
+eval point avg class IoU: 0.776949
+eval point accuracy: 0.830429
+eval point avg class acc: 0.830429
+------- IoU --------
+class 1, acc: 0.776949 
+
+**** EPOCH 019 ****
+2020-11-30 15:46:07.029169
+ -- 010 / 125 --
+mean loss: 0.085756
+accuracy: 0.982404
+total IoU: 0.965416
+ -- 020 / 125 --
+mean loss: 0.081564
+accuracy: 0.983441
+total IoU: 0.967422
+ -- 030 / 125 --
+mean loss: 0.080972
+accuracy: 0.983289
+total IoU: 0.967127
+ -- 040 / 125 --
+mean loss: 0.080048
+accuracy: 0.983466
+total IoU: 0.967469
+ -- 050 / 125 --
+mean loss: 0.084519
+accuracy: 0.982733
+total IoU: 0.966052
+ -- 060 / 125 --
+mean loss: 0.080175
+accuracy: 0.983771
+total IoU: 0.968060
+ -- 070 / 125 --
+mean loss: 0.077906
+accuracy: 0.984045
+total IoU: 0.968592
+ -- 080 / 125 --
+mean loss: 0.079905
+accuracy: 0.983038
+total IoU: 0.966642
+ -- 090 / 125 --
+mean loss: 0.080719
+accuracy: 0.983923
+total IoU: 0.968355
+ -- 100 / 125 --
+mean loss: 0.076606
+accuracy: 0.984100
+total IoU: 0.968698
+ -- 110 / 125 --
+mean loss: 0.079234
+accuracy: 0.983783
+total IoU: 0.968084
+ -- 120 / 125 --
+mean loss: 0.082051
+accuracy: 0.983081
+total IoU: 0.966725
+one epoch time: 69.4741
+2020-11-30 15:47:16.503365
+---- EPOCH 019 EVALUATION ----
+eval mean loss: 0.112835
+eval point avg class IoU: 0.768634
+eval point accuracy: 0.815053
+eval point avg class acc: 0.815053
+------- IoU --------
+class 1, acc: 0.768634 
+
+**** EPOCH 020 ****
+2020-11-30 15:47:23.007525
+ -- 010 / 125 --
+mean loss: 0.079851
+accuracy: 0.983478
+total IoU: 0.967493
+ -- 020 / 125 --
+mean loss: 0.082942
+accuracy: 0.982214
+total IoU: 0.965050
+ -- 030 / 125 --
+mean loss: 0.077453
+accuracy: 0.983929
+total IoU: 0.968367
+ -- 040 / 125 --
+mean loss: 0.080190
+accuracy: 0.983203
+total IoU: 0.966961
+ -- 050 / 125 --
+mean loss: 0.079132
+accuracy: 0.983868
+total IoU: 0.968249
+ -- 060 / 125 --
+mean loss: 0.079024
+accuracy: 0.983435
+total IoU: 0.967410
+ -- 070 / 125 --
+mean loss: 0.079726
+accuracy: 0.983478
+total IoU: 0.967493
+ -- 080 / 125 --
+mean loss: 0.079811
+accuracy: 0.983813
+total IoU: 0.968143
+ -- 090 / 125 --
+mean loss: 0.086005
+accuracy: 0.982404
+total IoU: 0.965416
+ -- 100 / 125 --
+mean loss: 0.094275
+accuracy: 0.981360
+total IoU: 0.963402
+ -- 110 / 125 --
+mean loss: 0.090911
+accuracy: 0.980975
+total IoU: 0.962661
+ -- 120 / 125 --
+mean loss: 0.082378
+accuracy: 0.982892
+total IoU: 0.966359
+one epoch time: 69.4730
+2020-11-30 15:48:32.480572
+---- EPOCH 020 EVALUATION ----
+eval mean loss: 0.102807
+eval point avg class IoU: 0.789482
+eval point accuracy: 0.867792
+eval point avg class acc: 0.867792
+------- IoU --------
+class 1, acc: 0.789482 
+
+Model saved in file: log2020_11_30_15_21_34/model.ckpt
+**** EPOCH 021 ****
+2020-11-30 15:48:39.702379
+ -- 010 / 125 --
+mean loss: 0.079257
+accuracy: 0.983514
+total IoU: 0.967564
+ -- 020 / 125 --
+mean loss: 0.084749
+accuracy: 0.982880
+total IoU: 0.966336
+ -- 030 / 125 --
+mean loss: 0.084771
+accuracy: 0.982538
+total IoU: 0.965675
+ -- 040 / 125 --
+mean loss: 0.081107
+accuracy: 0.983234
+total IoU: 0.967020
+ -- 050 / 125 --
+mean loss: 0.077021
+accuracy: 0.983997
+total IoU: 0.968497
+ -- 060 / 125 --
+mean loss: 0.080589
+accuracy: 0.983649
+total IoU: 0.967823
+ -- 070 / 125 --
+mean loss: 0.075760
+accuracy: 0.984430
+total IoU: 0.969337
+ -- 080 / 125 --
+mean loss: 0.078115
+accuracy: 0.983746
+total IoU: 0.968013
+ -- 090 / 125 --
+mean loss: 0.076694
+accuracy: 0.984222
+total IoU: 0.968935
+ -- 100 / 125 --
+mean loss: 0.075750
+accuracy: 0.984229
+total IoU: 0.968947
+ -- 110 / 125 --
+mean loss: 0.077534
+accuracy: 0.983850
+total IoU: 0.968214
+ -- 120 / 125 --
+mean loss: 0.078886
+accuracy: 0.983661
+total IoU: 0.967847
+one epoch time: 68.5442
+2020-11-30 15:49:48.246544
+---- EPOCH 021 EVALUATION ----
+eval mean loss: 0.097822
+eval point avg class IoU: 0.788488
+eval point accuracy: 0.868116
+eval point avg class acc: 0.868116
+------- IoU --------
+class 1, acc: 0.788488 
+
+**** EPOCH 022 ****
+2020-11-30 15:49:54.567389
+ -- 010 / 125 --
+mean loss: 0.078840
+accuracy: 0.983691
+total IoU: 0.967906
+ -- 020 / 125 --
+mean loss: 0.075230
+accuracy: 0.984174
+total IoU: 0.968840
+ -- 030 / 125 --
+mean loss: 0.076476
+accuracy: 0.984076
+total IoU: 0.968651
+ -- 040 / 125 --
+mean loss: 0.080436
+accuracy: 0.983392
+total IoU: 0.967327
+ -- 050 / 125 --
+mean loss: 0.075229
+accuracy: 0.984296
+total IoU: 0.969077
+ -- 060 / 125 --
+mean loss: 0.076087
+accuracy: 0.984558
+total IoU: 0.969586
+ -- 070 / 125 --
+mean loss: 0.079891
+accuracy: 0.983258
+total IoU: 0.967067
+ -- 080 / 125 --
+mean loss: 0.076303
+accuracy: 0.984021
+total IoU: 0.968545
+ -- 090 / 125 --
+mean loss: 0.079961
+accuracy: 0.983569
+total IoU: 0.967670
+ -- 100 / 125 --
+mean loss: 0.078032
+accuracy: 0.984131
+total IoU: 0.968758
+ -- 110 / 125 --
+mean loss: 0.075690
+accuracy: 0.984045
+total IoU: 0.968592
+ -- 120 / 125 --
+mean loss: 0.090137
+accuracy: 0.981689
+total IoU: 0.964037
+one epoch time: 70.1402
+2020-11-30 15:51:04.707717
+---- EPOCH 022 EVALUATION ----
+eval mean loss: 0.132708
+eval point avg class IoU: 0.728094
+eval point accuracy: 0.773163
+eval point avg class acc: 0.773163
+------- IoU --------
+class 1, acc: 0.728094 
+
+**** EPOCH 023 ****
+2020-11-30 15:51:11.370944
+ -- 010 / 125 --
+mean loss: 0.079610
+accuracy: 0.983533
+total IoU: 0.967599
+ -- 020 / 125 --
+mean loss: 0.080569
+accuracy: 0.983258
+total IoU: 0.967067
+ -- 030 / 125 --
+mean loss: 0.080921
+accuracy: 0.983655
+total IoU: 0.967835
+ -- 040 / 125 --
+mean loss: 0.075411
+accuracy: 0.984473
+total IoU: 0.969420
+ -- 050 / 125 --
+mean loss: 0.072925
+accuracy: 0.984949
+total IoU: 0.970344
+ -- 060 / 125 --
+mean loss: 0.078530
+accuracy: 0.983759
+total IoU: 0.968036
+ -- 070 / 125 --
+mean loss: 0.074236
+accuracy: 0.984863
+total IoU: 0.970178
+ -- 080 / 125 --
+mean loss: 0.077457
+accuracy: 0.983752
+total IoU: 0.968024
+ -- 090 / 125 --
+mean loss: 0.073913
+accuracy: 0.984454
+total IoU: 0.969385
+ -- 100 / 125 --
+mean loss: 0.074046
+accuracy: 0.984692
+total IoU: 0.969846
+ -- 110 / 125 --
+mean loss: 0.077321
+accuracy: 0.983972
+total IoU: 0.968450
+ -- 120 / 125 --
+mean loss: 0.075264
+accuracy: 0.984448
+total IoU: 0.969373
+one epoch time: 69.2735
+2020-11-30 15:52:20.644529
+---- EPOCH 023 EVALUATION ----
+eval mean loss: 0.102805
+eval point avg class IoU: 0.783101
+eval point accuracy: 0.839734
+eval point avg class acc: 0.839734
+------- IoU --------
+class 1, acc: 0.783101 
+
+**** EPOCH 024 ****
+2020-11-30 15:52:26.903483
+ -- 010 / 125 --
+mean loss: 0.076729
+accuracy: 0.984094
+total IoU: 0.968687
+ -- 020 / 125 --
+mean loss: 0.073466
+accuracy: 0.984753
+total IoU: 0.969965
+ -- 030 / 125 --
+mean loss: 0.077786
+accuracy: 0.984320
+total IoU: 0.969124
+ -- 040 / 125 --
+mean loss: 0.077847
+accuracy: 0.983728
+total IoU: 0.967977
+ -- 050 / 125 --
+mean loss: 0.075459
+accuracy: 0.984534
+total IoU: 0.969539
+ -- 060 / 125 --
+mean loss: 0.076062
+accuracy: 0.984241
+total IoU: 0.968970
+ -- 070 / 125 --
+mean loss: 0.079231
+accuracy: 0.983588
+total IoU: 0.967705
+ -- 080 / 125 --
+mean loss: 0.074223
+accuracy: 0.984338
+total IoU: 0.969160
+ -- 090 / 125 --
+mean loss: 0.075406
+accuracy: 0.984442
+total IoU: 0.969361
+ -- 100 / 125 --
+mean loss: 0.075883
+accuracy: 0.984741
+total IoU: 0.969941
+ -- 110 / 125 --
+mean loss: 0.074899
+accuracy: 0.984503
+total IoU: 0.969479
+ -- 120 / 125 --
+mean loss: 0.075156
+accuracy: 0.984308
+total IoU: 0.969101
+one epoch time: 67.8501
+2020-11-30 15:53:34.753641
+---- EPOCH 024 EVALUATION ----
+eval mean loss: 0.101644
+eval point avg class IoU: 0.791343
+eval point accuracy: 0.853206
+eval point avg class acc: 0.853206
+------- IoU --------
+class 1, acc: 0.791343 
+
+**** EPOCH 025 ****
+2020-11-30 15:53:40.936036
+ -- 010 / 125 --
+mean loss: 0.074405
+accuracy: 0.984265
+total IoU: 0.969018
+ -- 020 / 125 --
+mean loss: 0.073145
+accuracy: 0.985040
+total IoU: 0.970522
+ -- 030 / 125 --
+mean loss: 0.077299
+accuracy: 0.983801
+total IoU: 0.968119
+ -- 040 / 125 --
+mean loss: 0.074266
+accuracy: 0.984619
+total IoU: 0.969704
+ -- 050 / 125 --
+mean loss: 0.073245
+accuracy: 0.984967
+total IoU: 0.970379
+ -- 060 / 125 --
+mean loss: 0.070643
+accuracy: 0.985468
+total IoU: 0.971351
+ -- 070 / 125 --
+mean loss: 0.070897
+accuracy: 0.985339
+total IoU: 0.971102
+ -- 080 / 125 --
+mean loss: 0.069657
+accuracy: 0.985632
+total IoU: 0.971672
+ -- 090 / 125 --
+mean loss: 0.074106
+accuracy: 0.984308
+total IoU: 0.969101
+ -- 100 / 125 --
+mean loss: 0.074346
+accuracy: 0.984509
+total IoU: 0.969491
+ -- 110 / 125 --
+mean loss: 0.075464
+accuracy: 0.984644
+total IoU: 0.969752
+ -- 120 / 125 --
+mean loss: 0.073908
+accuracy: 0.984979
+total IoU: 0.970403
+one epoch time: 67.7388
+2020-11-30 15:54:48.674867
+---- EPOCH 025 EVALUATION ----
+eval mean loss: 0.100055
+eval point avg class IoU: 0.793719
+eval point accuracy: 0.873505
+eval point avg class acc: 0.873505
+------- IoU --------
+class 1, acc: 0.793719 
+
+**** EPOCH 026 ****
+2020-11-30 15:54:54.824806
+ -- 010 / 125 --
+mean loss: 0.071943
+accuracy: 0.985052
+total IoU: 0.970545
+ -- 020 / 125 --
+mean loss: 0.067399
+accuracy: 0.985864
+total IoU: 0.972123
+ -- 030 / 125 --
+mean loss: 0.073836
+accuracy: 0.984802
+total IoU: 0.970060
+ -- 040 / 125 --
+mean loss: 0.072267
+accuracy: 0.984821
+total IoU: 0.970095
+ -- 050 / 125 --
+mean loss: 0.069818
+accuracy: 0.985364
+total IoU: 0.971150
+ -- 060 / 125 --
+mean loss: 0.073412
+accuracy: 0.984888
+total IoU: 0.970225
+ -- 070 / 125 --
+mean loss: 0.076817
+accuracy: 0.984125
+total IoU: 0.968746
+ -- 080 / 125 --
+mean loss: 0.075539
+accuracy: 0.984576
+total IoU: 0.969621
+ -- 090 / 125 --
+mean loss: 0.067450
+accuracy: 0.985907
+total IoU: 0.972206
+ -- 100 / 125 --
+mean loss: 0.074330
+accuracy: 0.984503
+total IoU: 0.969479
+ -- 110 / 125 --
+mean loss: 0.079662
+accuracy: 0.983478
+total IoU: 0.967493
+ -- 120 / 125 --
+mean loss: 0.077905
+accuracy: 0.983649
+total IoU: 0.967823
+one epoch time: 67.4996
+2020-11-30 15:56:02.324430
+---- EPOCH 026 EVALUATION ----
+eval mean loss: 0.117779
+eval point avg class IoU: 0.780453
+eval point accuracy: 0.837147
+eval point avg class acc: 0.837147
+------- IoU --------
+class 1, acc: 0.780453 
+
+**** EPOCH 027 ****
+2020-11-30 15:56:08.344102
+ -- 010 / 125 --
+mean loss: 0.081390
+accuracy: 0.983429
+total IoU: 0.967398
+ -- 020 / 125 --
+mean loss: 0.073864
+accuracy: 0.984570
+total IoU: 0.969610
+ -- 030 / 125 --
+mean loss: 0.072087
+accuracy: 0.985034
+total IoU: 0.970510
+ -- 040 / 125 --
+mean loss: 0.072680
+accuracy: 0.984772
+total IoU: 0.970000
+ -- 050 / 125 --
+mean loss: 0.072558
+accuracy: 0.984753
+total IoU: 0.969965
+ -- 060 / 125 --
+mean loss: 0.072368
+accuracy: 0.984882
+total IoU: 0.970214
+ -- 070 / 125 --
+mean loss: 0.072467
+accuracy: 0.984937
+total IoU: 0.970320
+ -- 080 / 125 --
+mean loss: 0.071799
+accuracy: 0.984937
+total IoU: 0.970320
+ -- 090 / 125 --
+mean loss: 0.069901
+accuracy: 0.985187
+total IoU: 0.970806
+ -- 100 / 125 --
+mean loss: 0.071754
+accuracy: 0.985272
+total IoU: 0.970972
+ -- 110 / 125 --
+mean loss: 0.071425
+accuracy: 0.985321
+total IoU: 0.971067
+ -- 120 / 125 --
+mean loss: 0.076589
+accuracy: 0.984344
+total IoU: 0.969172
+one epoch time: 67.5822
+2020-11-30 15:57:15.926407
+---- EPOCH 027 EVALUATION ----
+eval mean loss: 0.122067
+eval point avg class IoU: 0.754669
+eval point accuracy: 0.783869
+eval point avg class acc: 0.783869
+------- IoU --------
+class 1, acc: 0.754669 
+
+**** EPOCH 028 ****
+2020-11-30 15:57:21.906699
+ -- 010 / 125 --
+mean loss: 0.074543
+accuracy: 0.984674
+total IoU: 0.969811
+ -- 020 / 125 --
+mean loss: 0.080565
+accuracy: 0.983197
+total IoU: 0.966949
+ -- 030 / 125 --
+mean loss: 0.070794
+accuracy: 0.985284
+total IoU: 0.970996
+ -- 040 / 125 --
+mean loss: 0.075316
+accuracy: 0.984174
+total IoU: 0.968840
+ -- 050 / 125 --
+mean loss: 0.072489
+accuracy: 0.985065
+total IoU: 0.970569
+ -- 060 / 125 --
+mean loss: 0.068198
+accuracy: 0.985559
+total IoU: 0.971529
+ -- 070 / 125 --
+mean loss: 0.067683
+accuracy: 0.985883
+total IoU: 0.972158
+ -- 080 / 125 --
+mean loss: 0.076199
+accuracy: 0.983978
+total IoU: 0.968462
+ -- 090 / 125 --
+mean loss: 0.077797
+accuracy: 0.984149
+total IoU: 0.968793
+ -- 100 / 125 --
+mean loss: 0.071766
+accuracy: 0.985040
+total IoU: 0.970522
+ -- 110 / 125 --
+mean loss: 0.067513
+accuracy: 0.985846
+total IoU: 0.972087
+ -- 120 / 125 --
+mean loss: 0.073066
+accuracy: 0.984991
+total IoU: 0.970427
+one epoch time: 67.1123
+2020-11-30 15:58:29.019006
+---- EPOCH 028 EVALUATION ----
+eval mean loss: 0.105075
+eval point avg class IoU: 0.794777
+eval point accuracy: 0.851769
+eval point avg class acc: 0.851769
+------- IoU --------
+class 1, acc: 0.794777 
+
+**** EPOCH 029 ****
+2020-11-30 15:58:35.103512
+ -- 010 / 125 --
+mean loss: 0.071098
+accuracy: 0.985205
+total IoU: 0.970842
+ -- 020 / 125 --
+mean loss: 0.074953
+accuracy: 0.984253
+total IoU: 0.968994
+ -- 030 / 125 --
+mean loss: 0.071750
+accuracy: 0.985309
+total IoU: 0.971043
+ -- 040 / 125 --
+mean loss: 0.073695
+accuracy: 0.984991
+total IoU: 0.970427
+ -- 050 / 125 --
+mean loss: 0.071035
+accuracy: 0.985034
+total IoU: 0.970510
+ -- 060 / 125 --
+mean loss: 0.067080
+accuracy: 0.986157
+total IoU: 0.972692
+ -- 070 / 125 --
+mean loss: 0.068645
+accuracy: 0.985229
+total IoU: 0.970889
+ -- 080 / 125 --
+mean loss: 0.073066
+accuracy: 0.984705
+total IoU: 0.969870
+ -- 090 / 125 --
+mean loss: 0.069117
+accuracy: 0.985254
+total IoU: 0.970936
+ -- 100 / 125 --
+mean loss: 0.073141
+accuracy: 0.984894
+total IoU: 0.970237
+ -- 110 / 125 --
+mean loss: 0.070376
+accuracy: 0.985101
+total IoU: 0.970640
+ -- 120 / 125 --
+mean loss: 0.068641
+accuracy: 0.985706
+total IoU: 0.971814
+one epoch time: 67.0462
+2020-11-30 15:59:42.149805
+---- EPOCH 029 EVALUATION ----
+eval mean loss: 0.100869
+eval point avg class IoU: 0.801046
+eval point accuracy: 0.858488
+eval point avg class acc: 0.858488
+------- IoU --------
+class 1, acc: 0.801046 
+
+**** EPOCH 030 ****
+2020-11-30 15:59:48.151760
+ -- 010 / 125 --
+mean loss: 0.072729
+accuracy: 0.984875
+total IoU: 0.970202
+ -- 020 / 125 --
+mean loss: 0.078478
+accuracy: 0.983636
+total IoU: 0.967800
+ -- 030 / 125 --
+mean loss: 0.078489
+accuracy: 0.983514
+total IoU: 0.967564
+ -- 040 / 125 --
+mean loss: 0.082359
+accuracy: 0.982361
+total IoU: 0.965333
+ -- 050 / 125 --
+mean loss: 0.076178
+accuracy: 0.984113
+total IoU: 0.968722
+ -- 060 / 125 --
+mean loss: 0.074375
+accuracy: 0.984552
+total IoU: 0.969574
+ -- 070 / 125 --
+mean loss: 0.073831
+accuracy: 0.985095
+total IoU: 0.970628
+ -- 080 / 125 --
+mean loss: 0.072167
+accuracy: 0.984821
+total IoU: 0.970095
+ -- 090 / 125 --
+mean loss: 0.075339
+accuracy: 0.984192
+total IoU: 0.968876
+ -- 100 / 125 --
+mean loss: 0.070334
+accuracy: 0.985596
+total IoU: 0.971600
+ -- 110 / 125 --
+mean loss: 0.068296
+accuracy: 0.985901
+total IoU: 0.972194
+ -- 120 / 125 --
+mean loss: 0.071493
+accuracy: 0.985193
+total IoU: 0.970818
+one epoch time: 66.8658
+2020-11-30 16:00:55.017618
+---- EPOCH 030 EVALUATION ----
+eval mean loss: 0.113367
+eval point avg class IoU: 0.788347
+eval point accuracy: 0.853602
+eval point avg class acc: 0.853602
+------- IoU --------
+class 1, acc: 0.788347 
+
+Model saved in file: log2020_11_30_15_21_34/model.ckpt
+**** EPOCH 031 ****
+2020-11-30 16:01:01.970498
+ -- 010 / 125 --
+mean loss: 0.070265
+accuracy: 0.985718
+total IoU: 0.971838
+ -- 020 / 125 --
+mean loss: 0.062984
+accuracy: 0.986438
+total IoU: 0.973239
+ -- 030 / 125 --
+mean loss: 0.068659
+accuracy: 0.985571
+total IoU: 0.971553
+ -- 040 / 125 --
+mean loss: 0.076147
+accuracy: 0.984296
+total IoU: 0.969077
+ -- 050 / 125 --
+mean loss: 0.067665
+accuracy: 0.986157
+total IoU: 0.972692
+ -- 060 / 125 --
+mean loss: 0.071976
+accuracy: 0.985236
+total IoU: 0.970901
+ -- 070 / 125 --
+mean loss: 0.068586
+accuracy: 0.985687
+total IoU: 0.971778
+ -- 080 / 125 --
+mean loss: 0.064765
+accuracy: 0.986365
+total IoU: 0.973096
+ -- 090 / 125 --
+mean loss: 0.069929
+accuracy: 0.985291
+total IoU: 0.971008
+ -- 100 / 125 --
+mean loss: 0.072745
+accuracy: 0.984766
+total IoU: 0.969988
+ -- 110 / 125 --
+mean loss: 0.072224
+accuracy: 0.984796
+total IoU: 0.970048
+ -- 120 / 125 --
+mean loss: 0.066035
+accuracy: 0.985944
+total IoU: 0.972277
+one epoch time: 66.9285
+2020-11-30 16:02:08.899011
+---- EPOCH 031 EVALUATION ----
+eval mean loss: 0.109880
+eval point avg class IoU: 0.781469
+eval point accuracy: 0.817209
+eval point avg class acc: 0.817209
+------- IoU --------
+class 1, acc: 0.781469 
+
+**** EPOCH 032 ****
+2020-11-30 16:02:15.022967
+ -- 010 / 125 --
+mean loss: 0.068904
+accuracy: 0.985919
+total IoU: 0.972229
+ -- 020 / 125 --
+mean loss: 0.071046
+accuracy: 0.985455
+total IoU: 0.971328
+ -- 030 / 125 --
+mean loss: 0.071814
+accuracy: 0.984680
+total IoU: 0.969823
+ -- 040 / 125 --
+mean loss: 0.072382
+accuracy: 0.985291
+total IoU: 0.971008
+ -- 050 / 125 --
+mean loss: 0.074018
+accuracy: 0.984430
+total IoU: 0.969337
+ -- 060 / 125 --
+mean loss: 0.069792
+accuracy: 0.985480
+total IoU: 0.971375
+ -- 070 / 125 --
+mean loss: 0.070971
+accuracy: 0.985223
+total IoU: 0.970877
+ -- 080 / 125 --
+mean loss: 0.071789
+accuracy: 0.984821
+total IoU: 0.970095
+ -- 090 / 125 --
+mean loss: 0.073332
+accuracy: 0.984741
+total IoU: 0.969941
+ -- 100 / 125 --
+mean loss: 0.069655
+accuracy: 0.985242
+total IoU: 0.970913
+ -- 110 / 125 --
+mean loss: 0.068710
+accuracy: 0.985748
+total IoU: 0.971897
+ -- 120 / 125 --
+mean loss: 0.067267
+accuracy: 0.986182
+total IoU: 0.972740
+one epoch time: 67.0600
+2020-11-30 16:03:22.083008
+---- EPOCH 032 EVALUATION ----
+eval mean loss: 0.103059
+eval point avg class IoU: 0.792745
+eval point accuracy: 0.841674
+eval point avg class acc: 0.841674
+------- IoU --------
+class 1, acc: 0.792745 
+
+**** EPOCH 033 ****
+2020-11-30 16:03:28.129971
+ -- 010 / 125 --
+mean loss: 0.067465
+accuracy: 0.985425
+total IoU: 0.971268
+ -- 020 / 125 --
+mean loss: 0.068274
+accuracy: 0.985870
+total IoU: 0.972134
+ -- 030 / 125 --
+mean loss: 0.068579
+accuracy: 0.985907
+total IoU: 0.972206
+ -- 040 / 125 --
+mean loss: 0.068542
+accuracy: 0.985748
+total IoU: 0.971897
+ -- 050 / 125 --
+mean loss: 0.067986
+accuracy: 0.985779
+total IoU: 0.971956
+ -- 060 / 125 --
+mean loss: 0.064929
+accuracy: 0.986615
+total IoU: 0.973584
+ -- 070 / 125 --
+mean loss: 0.069776
+accuracy: 0.985168
+total IoU: 0.970770
+ -- 080 / 125 --
+mean loss: 0.065314
+accuracy: 0.986340
+total IoU: 0.973049
+ -- 090 / 125 --
+mean loss: 0.069371
+accuracy: 0.985767
+total IoU: 0.971933
+ -- 100 / 125 --
+mean loss: 0.069571
+accuracy: 0.985394
+total IoU: 0.971209
+ -- 110 / 125 --
+mean loss: 0.065521
+accuracy: 0.986060
+total IoU: 0.972502
+ -- 120 / 125 --
+mean loss: 0.074351
+accuracy: 0.984900
+total IoU: 0.970249
+one epoch time: 67.4401
+2020-11-30 16:04:35.570105
+---- EPOCH 033 EVALUATION ----
+eval mean loss: 0.111430
+eval point avg class IoU: 0.781129
+eval point accuracy: 0.828920
+eval point avg class acc: 0.828920
+------- IoU --------
+class 1, acc: 0.781129 
+
+**** EPOCH 034 ****
+2020-11-30 16:04:41.693206
+ -- 010 / 125 --
+mean loss: 0.066948
+accuracy: 0.985822
+total IoU: 0.972040
+ -- 020 / 125 --
+mean loss: 0.070246
+accuracy: 0.985474
+total IoU: 0.971363
+ -- 030 / 125 --
+mean loss: 0.065533
+accuracy: 0.986548
+total IoU: 0.973453
+ -- 040 / 125 --
+mean loss: 0.063959
+accuracy: 0.986713
+total IoU: 0.973774
+ -- 050 / 125 --
+mean loss: 0.067990
+accuracy: 0.985535
+total IoU: 0.971482
+ -- 060 / 125 --
+mean loss: 0.086205
+accuracy: 0.982812
+total IoU: 0.966206
+ -- 070 / 125 --
+mean loss: 0.088829
+accuracy: 0.982288
+total IoU: 0.965192
+ -- 080 / 125 --
+mean loss: 0.088962
+accuracy: 0.981775
+total IoU: 0.964202
+ -- 090 / 125 --
+mean loss: 0.088454
+accuracy: 0.981903
+total IoU: 0.964450
+ -- 100 / 125 --
+mean loss: 0.078271
+accuracy: 0.984503
+total IoU: 0.969479
+ -- 110 / 125 --
+mean loss: 0.083688
+accuracy: 0.983112
+total IoU: 0.966784
+ -- 120 / 125 --
+mean loss: 0.080232
+accuracy: 0.983630
+total IoU: 0.967788
+one epoch time: 67.1848
+2020-11-30 16:05:48.878053
+---- EPOCH 034 EVALUATION ----
+eval mean loss: 0.103878
+eval point avg class IoU: 0.782033
+eval point accuracy: 0.864128
+eval point avg class acc: 0.864128
+------- IoU --------
+class 1, acc: 0.782033 
+
+**** EPOCH 035 ****
+2020-11-30 16:05:54.825695
+ -- 010 / 125 --
+mean loss: 0.081145
+accuracy: 0.983594
+total IoU: 0.967717
+ -- 020 / 125 --
+mean loss: 0.083944
+accuracy: 0.982794
+total IoU: 0.966170
+ -- 030 / 125 --
+mean loss: 0.078425
+accuracy: 0.983905
+total IoU: 0.968320
+ -- 040 / 125 --
+mean loss: 0.072558
+accuracy: 0.985138
+total IoU: 0.970711
+ -- 050 / 125 --
+mean loss: 0.072103
+accuracy: 0.985339
+total IoU: 0.971102
+ -- 060 / 125 --
+mean loss: 0.072828
+accuracy: 0.984821
+total IoU: 0.970095
+ -- 070 / 125 --
+mean loss: 0.068519
+accuracy: 0.985834
+total IoU: 0.972063
+ -- 080 / 125 --
+mean loss: 0.064771
+accuracy: 0.986682
+total IoU: 0.973714
+ -- 090 / 125 --
+mean loss: 0.074434
+accuracy: 0.984827
+total IoU: 0.970107
+ -- 100 / 125 --
+mean loss: 0.070561
+accuracy: 0.985449
+total IoU: 0.971316
+ -- 110 / 125 --
+mean loss: 0.069696
+accuracy: 0.985443
+total IoU: 0.971304
+ -- 120 / 125 --
+mean loss: 0.066569
+accuracy: 0.986066
+total IoU: 0.972514
+one epoch time: 68.1242
+2020-11-30 16:07:02.949963
+---- EPOCH 035 EVALUATION ----
+eval mean loss: 0.115373
+eval point avg class IoU: 0.786609
+eval point accuracy: 0.834453
+eval point avg class acc: 0.834453
+------- IoU --------
+class 1, acc: 0.786609 
+
+**** EPOCH 036 ****
+2020-11-30 16:07:09.321544
+ -- 010 / 125 --
+mean loss: 0.070858
+accuracy: 0.985419
+total IoU: 0.971257
+ -- 020 / 125 --
+mean loss: 0.070216
+accuracy: 0.985260
+total IoU: 0.970948
+ -- 030 / 125 --
+mean loss: 0.065009
+accuracy: 0.986652
+total IoU: 0.973655
+ -- 040 / 125 --
+mean loss: 0.067175
+accuracy: 0.986346
+total IoU: 0.973061
+ -- 050 / 125 --
+mean loss: 0.066225
+accuracy: 0.986542
+total IoU: 0.973441
+ -- 060 / 125 --
+mean loss: 0.066145
+accuracy: 0.986035
+total IoU: 0.972455
+ -- 070 / 125 --
+mean loss: 0.065398
+accuracy: 0.986243
+total IoU: 0.972859
+ -- 080 / 125 --
+mean loss: 0.067203
+accuracy: 0.986200
+total IoU: 0.972776
+ -- 090 / 125 --
+mean loss: 0.067208
+accuracy: 0.985748
+total IoU: 0.971897
+ -- 100 / 125 --
+mean loss: 0.066875
+accuracy: 0.985767
+total IoU: 0.971933
+ -- 110 / 125 --
+mean loss: 0.064794
+accuracy: 0.986285
+total IoU: 0.972942
+ -- 120 / 125 --
+mean loss: 0.063356
+accuracy: 0.986719
+total IoU: 0.973786
+one epoch time: 67.9504
+2020-11-30 16:08:17.272006
+---- EPOCH 036 EVALUATION ----
+eval mean loss: 0.102748
+eval point avg class IoU: 0.796472
+eval point accuracy: 0.858164
+eval point avg class acc: 0.858164
+------- IoU --------
+class 1, acc: 0.796472 
+
+**** EPOCH 037 ****
+2020-11-30 16:08:23.288600
+ -- 010 / 125 --
+mean loss: 0.064980
+accuracy: 0.986334
+total IoU: 0.973037
+ -- 020 / 125 --
+mean loss: 0.069794
+accuracy: 0.985101
+total IoU: 0.970640
+ -- 030 / 125 --
+mean loss: 0.065553
+accuracy: 0.986530
+total IoU: 0.973417
+ -- 040 / 125 --
+mean loss: 0.067122
+accuracy: 0.986121
+total IoU: 0.972621
+ -- 050 / 125 --
+mean loss: 0.072051
+accuracy: 0.984644
+total IoU: 0.969752
+ -- 060 / 125 --
+mean loss: 0.067284
+accuracy: 0.986121
+total IoU: 0.972621
+ -- 070 / 125 --
+mean loss: 0.066248
+accuracy: 0.986359
+total IoU: 0.973084
+ -- 080 / 125 --
+mean loss: 0.065229
+accuracy: 0.986346
+total IoU: 0.973061
+ -- 090 / 125 --
+mean loss: 0.066406
+accuracy: 0.985864
+total IoU: 0.972123
+ -- 100 / 125 --
+mean loss: 0.062478
+accuracy: 0.986707
+total IoU: 0.973762
+ -- 110 / 125 --
+mean loss: 0.060531
+accuracy: 0.987250
+total IoU: 0.974821
+ -- 120 / 125 --
+mean loss: 0.067544
+accuracy: 0.985785
+total IoU: 0.971968
+one epoch time: 67.1148
+2020-11-30 16:09:30.403448
+---- EPOCH 037 EVALUATION ----
+eval mean loss: 0.099725
+eval point avg class IoU: 0.797697
+eval point accuracy: 0.853781
+eval point avg class acc: 0.853781
+------- IoU --------
+class 1, acc: 0.797697 
+
+**** EPOCH 038 ****
+2020-11-30 16:09:36.488496
+ -- 010 / 125 --
+mean loss: 0.063974
+accuracy: 0.986438
+total IoU: 0.973239
+ -- 020 / 125 --
+mean loss: 0.068200
+accuracy: 0.985706
+total IoU: 0.971814
+ -- 030 / 125 --
+mean loss: 0.065607
+accuracy: 0.986011
+total IoU: 0.972407
+ -- 040 / 125 --
+mean loss: 0.070633
+accuracy: 0.984851
+total IoU: 0.970154
+ -- 050 / 125 --
+mean loss: 0.067716
+accuracy: 0.985852
+total IoU: 0.972099
+ -- 060 / 125 --
+mean loss: 0.064269
+accuracy: 0.986664
+total IoU: 0.973679
+ -- 070 / 125 --
+mean loss: 0.065472
+accuracy: 0.986206
+total IoU: 0.972787
+ -- 080 / 125 --
+mean loss: 0.062858
+accuracy: 0.987140
+total IoU: 0.974606
+ -- 090 / 125 --
+mean loss: 0.064446
+accuracy: 0.986517
+total IoU: 0.973393
+ -- 100 / 125 --
+mean loss: 0.062144
+accuracy: 0.986957
+total IoU: 0.974249
+ -- 110 / 125 --
+mean loss: 0.064969
+accuracy: 0.986725
+total IoU: 0.973798
+ -- 120 / 125 --
+mean loss: 0.060739
+accuracy: 0.987604
+total IoU: 0.975511
+one epoch time: 67.8951
+2020-11-30 16:10:44.383640
+---- EPOCH 038 EVALUATION ----
+eval mean loss: 0.098489
+eval point avg class IoU: 0.808366
+eval point accuracy: 0.869265
+eval point avg class acc: 0.869265
+------- IoU --------
+class 1, acc: 0.808366 
+
+**** EPOCH 039 ****
+2020-11-30 16:10:50.606624
+ -- 010 / 125 --
+mean loss: 0.063843
+accuracy: 0.986475
+total IoU: 0.973310
+ -- 020 / 125 --
+mean loss: 0.063747
+accuracy: 0.986475
+total IoU: 0.973310
+ -- 030 / 125 --
+mean loss: 0.065719
+accuracy: 0.986267
+total IoU: 0.972906
+ -- 040 / 125 --
+mean loss: 0.064557
+accuracy: 0.986365
+total IoU: 0.973096
+ -- 050 / 125 --
+mean loss: 0.063709
+accuracy: 0.986835
+total IoU: 0.974012
+ -- 060 / 125 --
+mean loss: 0.068556
+accuracy: 0.985913
+total IoU: 0.972218
+ -- 070 / 125 --
+mean loss: 0.064279
+accuracy: 0.986792
+total IoU: 0.973928
+ -- 080 / 125 --
+mean loss: 0.065476
+accuracy: 0.986224
+total IoU: 0.972823
+ -- 090 / 125 --
+mean loss: 0.063146
+accuracy: 0.986627
+total IoU: 0.973607
+ -- 100 / 125 --
+mean loss: 0.066723
+accuracy: 0.986200
+total IoU: 0.972776
+ -- 110 / 125 --
+mean loss: 0.067871
+accuracy: 0.986224
+total IoU: 0.972823
+ -- 120 / 125 --
+mean loss: 0.068234
+accuracy: 0.985956
+total IoU: 0.972301
+one epoch time: 67.9308
+2020-11-30 16:11:58.537442
+---- EPOCH 039 EVALUATION ----
+eval mean loss: 0.127640
+eval point avg class IoU: 0.783174
+eval point accuracy: 0.811029
+eval point avg class acc: 0.811029
+------- IoU --------
+class 1, acc: 0.783174 
+
+**** EPOCH 040 ****
+2020-11-30 16:12:04.925677
+ -- 010 / 125 --
+mean loss: 0.064536
+accuracy: 0.986346
+total IoU: 0.973061
+ -- 020 / 125 --
+mean loss: 0.066077
+accuracy: 0.986157
+total IoU: 0.972692
+ -- 030 / 125 --
+mean loss: 0.065495
+accuracy: 0.986285
+total IoU: 0.972942
+ -- 040 / 125 --
+mean loss: 0.067817
+accuracy: 0.985638
+total IoU: 0.971684
+ -- 050 / 125 --
+mean loss: 0.058148
+accuracy: 0.988049
+total IoU: 0.976381
+ -- 060 / 125 --
+mean loss: 0.061493
+accuracy: 0.987012
+total IoU: 0.974357
+ -- 070 / 125 --
+mean loss: 0.066501
+accuracy: 0.985675
+total IoU: 0.971755
+ -- 080 / 125 --
+mean loss: 0.068771
+accuracy: 0.985468
+total IoU: 0.971351
+ -- 090 / 125 --
+mean loss: 0.067895
+accuracy: 0.985742
+total IoU: 0.971885
+ -- 100 / 125 --
+mean loss: 0.061408
+accuracy: 0.987189
+total IoU: 0.974702
+ -- 110 / 125 --
+mean loss: 0.067216
+accuracy: 0.985889
+total IoU: 0.972170
+ -- 120 / 125 --
+mean loss: 0.068212
+accuracy: 0.985620
+total IoU: 0.971648
+one epoch time: 68.2622
+2020-11-30 16:13:13.187871
+---- EPOCH 040 EVALUATION ----
+eval mean loss: 0.107394
+eval point avg class IoU: 0.795387
+eval point accuracy: 0.853566
+eval point avg class acc: 0.853566
+------- IoU --------
+class 1, acc: 0.795387 
+
+Model saved in file: log2020_11_30_15_21_34/model.ckpt
+**** EPOCH 041 ****
+2020-11-30 16:13:20.415840
+ -- 010 / 125 --
+mean loss: 0.066879
+accuracy: 0.986102
+total IoU: 0.972586
+ -- 020 / 125 --
+mean loss: 0.068436
+accuracy: 0.985706
+total IoU: 0.971814
+ -- 030 / 125 --
+mean loss: 0.066749
+accuracy: 0.986066
+total IoU: 0.972514
+ -- 040 / 125 --
+mean loss: 0.063075
+accuracy: 0.986798
+total IoU: 0.973940
+ -- 050 / 125 --
+mean loss: 0.064612
+accuracy: 0.986322
+total IoU: 0.973013
+ -- 060 / 125 --
+mean loss: 0.061641
+accuracy: 0.987018
+total IoU: 0.974368
+ -- 070 / 125 --
+mean loss: 0.060153
+accuracy: 0.987360
+total IoU: 0.975035
+ -- 080 / 125 --
+mean loss: 0.062186
+accuracy: 0.987103
+total IoU: 0.974535
+ -- 090 / 125 --
+mean loss: 0.068997
+accuracy: 0.985767
+total IoU: 0.971933
+ -- 100 / 125 --
+mean loss: 0.075046
+accuracy: 0.984515
+total IoU: 0.969503
+ -- 110 / 125 --
+mean loss: 0.065524
+accuracy: 0.986285
+total IoU: 0.972942
+ -- 120 / 125 --
+mean loss: 0.061697
+accuracy: 0.987244
+total IoU: 0.974809
+one epoch time: 67.8737
+2020-11-30 16:14:28.289520
+---- EPOCH 041 EVALUATION ----
+eval mean loss: 0.099306
+eval point avg class IoU: 0.810154
+eval point accuracy: 0.870810
+eval point avg class acc: 0.870810
+------- IoU --------
+class 1, acc: 0.810154 
+
+**** EPOCH 042 ****
+2020-11-30 16:14:34.485778
+ -- 010 / 125 --
+mean loss: 0.060544
+accuracy: 0.987189
+total IoU: 0.974702
+ -- 020 / 125 --
+mean loss: 0.062238
+accuracy: 0.986810
+total IoU: 0.973964
+ -- 030 / 125 --
+mean loss: 0.064646
+accuracy: 0.986230
+total IoU: 0.972835
+ -- 040 / 125 --
+mean loss: 0.067251
+accuracy: 0.985724
+total IoU: 0.971850
+ -- 050 / 125 --
+mean loss: 0.064315
+accuracy: 0.986810
+total IoU: 0.973964
+ -- 060 / 125 --
+mean loss: 0.066151
+accuracy: 0.986066
+total IoU: 0.972514
+ -- 070 / 125 --
+mean loss: 0.068618
+accuracy: 0.985925
+total IoU: 0.972241
+ -- 080 / 125 --
+mean loss: 0.065308
+accuracy: 0.986694
+total IoU: 0.973738
+ -- 090 / 125 --
+mean loss: 0.069323
+accuracy: 0.985596
+total IoU: 0.971600
+ -- 100 / 125 --
+mean loss: 0.068606
+accuracy: 0.985730
+total IoU: 0.971861
+ -- 110 / 125 --
+mean loss: 0.068028
+accuracy: 0.985938
+total IoU: 0.972265
+ -- 120 / 125 --
+mean loss: 0.065673
+accuracy: 0.986285
+total IoU: 0.972942
+one epoch time: 67.0352
+2020-11-30 16:15:41.520991
+---- EPOCH 042 EVALUATION ----
+eval mean loss: 0.125053
+eval point avg class IoU: 0.767485
+eval point accuracy: 0.798311
+eval point avg class acc: 0.798311
+------- IoU --------
+class 1, acc: 0.767485 
+
+**** EPOCH 043 ****
+2020-11-30 16:15:47.666756
+ -- 010 / 125 --
+mean loss: 0.062831
+accuracy: 0.986707
+total IoU: 0.973762
+ -- 020 / 125 --
+mean loss: 0.064775
+accuracy: 0.986053
+total IoU: 0.972491
+ -- 030 / 125 --
+mean loss: 0.058905
+accuracy: 0.987616
+total IoU: 0.975535
+ -- 040 / 125 --
+mean loss: 0.065022
+accuracy: 0.986621
+total IoU: 0.973595
+ -- 050 / 125 --
+mean loss: 0.063339
+accuracy: 0.986761
+total IoU: 0.973869
+ -- 060 / 125 --
+mean loss: 0.071144
+accuracy: 0.984875
+total IoU: 0.970202
+ -- 070 / 125 --
+mean loss: 0.065195
+accuracy: 0.986255
+total IoU: 0.972882
+ -- 080 / 125 --
+mean loss: 0.064813
+accuracy: 0.986523
+total IoU: 0.973405
+ -- 090 / 125 --
+mean loss: 0.065199
+accuracy: 0.985950
+total IoU: 0.972289
+ -- 100 / 125 --
+mean loss: 0.063899
+accuracy: 0.986548
+total IoU: 0.973453
+ -- 110 / 125 --
+mean loss: 0.066978
+accuracy: 0.985956
+total IoU: 0.972301
+ -- 120 / 125 --
+mean loss: 0.063434
+accuracy: 0.986871
+total IoU: 0.974083
+one epoch time: 67.0301
+2020-11-30 16:16:54.696867
+---- EPOCH 043 EVALUATION ----
+eval mean loss: 0.098197
+eval point avg class IoU: 0.798346
+eval point accuracy: 0.853242
+eval point avg class acc: 0.853242
+------- IoU --------
+class 1, acc: 0.798346 
+
+**** EPOCH 044 ****
+2020-11-30 16:17:00.915506
+ -- 010 / 125 --
+mean loss: 0.065846
+accuracy: 0.986224
+total IoU: 0.972823
+ -- 020 / 125 --
+mean loss: 0.065122
+accuracy: 0.985986
+total IoU: 0.972360
+ -- 030 / 125 --
+mean loss: 0.064227
+accuracy: 0.986658
+total IoU: 0.973667
+ -- 040 / 125 --
+mean loss: 0.066325
+accuracy: 0.985968
+total IoU: 0.972324
+ -- 050 / 125 --
+mean loss: 0.066093
+accuracy: 0.986298
+total IoU: 0.972966
+ -- 060 / 125 --
+mean loss: 0.063548
+accuracy: 0.986694
+total IoU: 0.973738
+ -- 070 / 125 --
+mean loss: 0.061632
+accuracy: 0.987195
+total IoU: 0.974713
+ -- 080 / 125 --
+mean loss: 0.060586
+accuracy: 0.987543
+total IoU: 0.975392
+ -- 090 / 125 --
+mean loss: 0.061244
+accuracy: 0.987256
+total IoU: 0.974832
+ -- 100 / 125 --
+mean loss: 0.064114
+accuracy: 0.986737
+total IoU: 0.973821
+ -- 110 / 125 --
+mean loss: 0.062200
+accuracy: 0.987091
+total IoU: 0.974511
+ -- 120 / 125 --
+mean loss: 0.062484
+accuracy: 0.986871
+total IoU: 0.974083
+one epoch time: 66.8830
+2020-11-30 16:18:07.798502
+---- EPOCH 044 EVALUATION ----
+eval mean loss: 0.098614
+eval point avg class IoU: 0.807435
+eval point accuracy: 0.862260
+eval point avg class acc: 0.862260
+------- IoU --------
+class 1, acc: 0.807435 
+
+**** EPOCH 045 ****
+2020-11-30 16:18:13.813326
+ -- 010 / 125 --
+mean loss: 0.064442
+accuracy: 0.986395
+total IoU: 0.973156
+ -- 020 / 125 --
+mean loss: 0.060846
+accuracy: 0.987384
+total IoU: 0.975082
+ -- 030 / 125 --
+mean loss: 0.061988
+accuracy: 0.986914
+total IoU: 0.974166
+ -- 040 / 125 --
+mean loss: 0.058307
+accuracy: 0.987738
+total IoU: 0.975773
+ -- 050 / 125 --
+mean loss: 0.064684
+accuracy: 0.986206
+total IoU: 0.972787
+ -- 060 / 125 --
+mean loss: 0.060939
+accuracy: 0.987268
+total IoU: 0.974856
+ -- 070 / 125 --
+mean loss: 0.063675
+accuracy: 0.986115
+total IoU: 0.972609
+ -- 080 / 125 --
+mean loss: 0.061455
+accuracy: 0.987231
+total IoU: 0.974785
+ -- 090 / 125 --
+mean loss: 0.063829
+accuracy: 0.986273
+total IoU: 0.972918
+ -- 100 / 125 --
+mean loss: 0.061375
+accuracy: 0.987152
+total IoU: 0.974630
+ -- 110 / 125 --
+mean loss: 0.062940
+accuracy: 0.986761
+total IoU: 0.973869
+ -- 120 / 125 --
+mean loss: 0.062291
+accuracy: 0.986530
+total IoU: 0.973417
+one epoch time: 66.8776
+2020-11-30 16:19:20.690983
+---- EPOCH 045 EVALUATION ----
+eval mean loss: 0.116724
+eval point avg class IoU: 0.786691
+eval point accuracy: 0.832872
+eval point avg class acc: 0.832872
+------- IoU --------
+class 1, acc: 0.786691 
+
+**** EPOCH 046 ****
+2020-11-30 16:19:26.583710
+ -- 010 / 125 --
+mean loss: 0.060808
+accuracy: 0.987213
+total IoU: 0.974749
+ -- 020 / 125 --
+mean loss: 0.058846
+accuracy: 0.987659
+total IoU: 0.975618
+ -- 030 / 125 --
+mean loss: 0.057824
+accuracy: 0.987592
+total IoU: 0.975487
+ -- 040 / 125 --
+mean loss: 0.070062
+accuracy: 0.985706
+total IoU: 0.971814
+ -- 050 / 125 --
+mean loss: 0.067034
+accuracy: 0.985748
+total IoU: 0.971897
+ -- 060 / 125 --
+mean loss: 0.067773
+accuracy: 0.985559
+total IoU: 0.971529
+ -- 070 / 125 --
+mean loss: 0.063591
+accuracy: 0.987042
+total IoU: 0.974416
+ -- 080 / 125 --
+mean loss: 0.063739
+accuracy: 0.986548
+total IoU: 0.973453
+ -- 090 / 125 --
+mean loss: 0.063078
+accuracy: 0.986853
+total IoU: 0.974047
+ -- 100 / 125 --
+mean loss: 0.066452
+accuracy: 0.985870
+total IoU: 0.972134
+ -- 110 / 125 --
+mean loss: 0.065244
+accuracy: 0.986761
+total IoU: 0.973869
+ -- 120 / 125 --
+mean loss: 0.061977
+accuracy: 0.986902
+total IoU: 0.974142
+one epoch time: 66.7512
+2020-11-30 16:20:33.335002
+---- EPOCH 046 EVALUATION ----
+eval mean loss: 0.105560
+eval point avg class IoU: 0.790705
+eval point accuracy: 0.836752
+eval point avg class acc: 0.836752
+------- IoU --------
+class 1, acc: 0.790705 
+
+**** EPOCH 047 ****
+2020-11-30 16:20:39.305949
+ -- 010 / 125 --
+mean loss: 0.060578
+accuracy: 0.987335
+total IoU: 0.974987
+ -- 020 / 125 --
+mean loss: 0.061862
+accuracy: 0.987085
+total IoU: 0.974499
+ -- 030 / 125 --
+mean loss: 0.063291
+accuracy: 0.986633
+total IoU: 0.973619
+ -- 040 / 125 --
+mean loss: 0.061519
+accuracy: 0.986938
+total IoU: 0.974214
+ -- 050 / 125 --
+mean loss: 0.060873
+accuracy: 0.987097
+total IoU: 0.974523
+ -- 060 / 125 --
+mean loss: 0.059228
+accuracy: 0.987732
+total IoU: 0.975761
+ -- 070 / 125 --
+mean loss: 0.060956
+accuracy: 0.987323
+total IoU: 0.974963
+ -- 080 / 125 --
+mean loss: 0.066254
+accuracy: 0.986041
+total IoU: 0.972467
+ -- 090 / 125 --
+mean loss: 0.060201
+accuracy: 0.987146
+total IoU: 0.974618
+ -- 100 / 125 --
+mean loss: 0.061078
+accuracy: 0.987305
+total IoU: 0.974928
+ -- 110 / 125 --
+mean loss: 0.061823
+accuracy: 0.987140
+total IoU: 0.974606
+ -- 120 / 125 --
+mean loss: 0.059258
+accuracy: 0.987659
+total IoU: 0.975618
+one epoch time: 66.7435
+2020-11-30 16:21:46.049455
+---- EPOCH 047 EVALUATION ----
+eval mean loss: 0.114651
+eval point avg class IoU: 0.787259
+eval point accuracy: 0.835962
+eval point avg class acc: 0.835962
+------- IoU --------
+class 1, acc: 0.787259 
+
+**** EPOCH 048 ****
+2020-11-30 16:21:52.037115
+ -- 010 / 125 --
+mean loss: 0.060808
+accuracy: 0.987085
+total IoU: 0.974499
+ -- 020 / 125 --
+mean loss: 0.061312
+accuracy: 0.987091
+total IoU: 0.974511
+ -- 030 / 125 --
+mean loss: 0.057363
+accuracy: 0.988068
+total IoU: 0.976417
+ -- 040 / 125 --
+mean loss: 0.064770
+accuracy: 0.986224
+total IoU: 0.972823
+ -- 050 / 125 --
+mean loss: 0.060966
+accuracy: 0.987354
+total IoU: 0.975023
+ -- 060 / 125 --
+mean loss: 0.058971
+accuracy: 0.987549
+total IoU: 0.975404
+ -- 070 / 125 --
+mean loss: 0.064059
+accuracy: 0.986713
+total IoU: 0.973774
+ -- 080 / 125 --
+mean loss: 0.061441
+accuracy: 0.987274
+total IoU: 0.974868
+ -- 090 / 125 --
+mean loss: 0.064217
+accuracy: 0.986426
+total IoU: 0.973215
+ -- 100 / 125 --
+mean loss: 0.061355
+accuracy: 0.987207
+total IoU: 0.974737
+ -- 110 / 125 --
+mean loss: 0.058471
+accuracy: 0.987506
+total IoU: 0.975321
+ -- 120 / 125 --
+mean loss: 0.063585
+accuracy: 0.986554
+total IoU: 0.973465
+one epoch time: 66.2888
+2020-11-30 16:22:58.325990
+---- EPOCH 048 EVALUATION ----
+eval mean loss: 0.107376
+eval point avg class IoU: 0.800715
+eval point accuracy: 0.845446
+eval point avg class acc: 0.845446
+------- IoU --------
+class 1, acc: 0.800715 
+
+**** EPOCH 049 ****
+2020-11-30 16:23:04.402979
+ -- 010 / 125 --
+mean loss: 0.062249
+accuracy: 0.987122
+total IoU: 0.974571
+ -- 020 / 125 --
+mean loss: 0.060634
+accuracy: 0.987341
+total IoU: 0.974999
+ -- 030 / 125 --
+mean loss: 0.060094
+accuracy: 0.987311
+total IoU: 0.974940
+ -- 040 / 125 --
+mean loss: 0.061362
+accuracy: 0.986987
+total IoU: 0.974309
+ -- 050 / 125 --
+mean loss: 0.058720
+accuracy: 0.987494
+total IoU: 0.975297
+ -- 060 / 125 --
+mean loss: 0.062211
+accuracy: 0.986951
+total IoU: 0.974238
+ -- 070 / 125 --
+mean loss: 0.061389
+accuracy: 0.987170
+total IoU: 0.974666
+ -- 080 / 125 --
+mean loss: 0.062120
+accuracy: 0.986700
+total IoU: 0.973750
+ -- 090 / 125 --
+mean loss: 0.057000
+accuracy: 0.987842
+total IoU: 0.975976
+ -- 100 / 125 --
+mean loss: 0.061870
+accuracy: 0.987354
+total IoU: 0.975023
+ -- 110 / 125 --
+mean loss: 0.060555
+accuracy: 0.987030
+total IoU: 0.974392
+ -- 120 / 125 --
+mean loss: 0.062214
+accuracy: 0.986737
+total IoU: 0.973821
+one epoch time: 66.3090
+2020-11-30 16:24:10.711984
+---- EPOCH 049 EVALUATION ----
+eval mean loss: 0.135813
+eval point avg class IoU: 0.747247
+eval point accuracy: 0.777582
+eval point avg class acc: 0.777582
+------- IoU --------
+class 1, acc: 0.747247 
+
+**** EPOCH 050 ****
+2020-11-30 16:24:16.716280
+ -- 010 / 125 --
+mean loss: 0.062491
+accuracy: 0.986566
+total IoU: 0.973488
+ -- 020 / 125 --
+mean loss: 0.064827
+accuracy: 0.986096
+total IoU: 0.972574
+ -- 030 / 125 --
+mean loss: 0.063400
+accuracy: 0.986877
+total IoU: 0.974095
+ -- 040 / 125 --
+mean loss: 0.059190
+accuracy: 0.987286
+total IoU: 0.974892
+ -- 050 / 125 --
+mean loss: 0.060796
+accuracy: 0.987122
+total IoU: 0.974571
+ -- 060 / 125 --
+mean loss: 0.061128
+accuracy: 0.986896
+total IoU: 0.974131
+ -- 070 / 125 --
+mean loss: 0.064607
+accuracy: 0.986633
+total IoU: 0.973619
+ -- 080 / 125 --
+mean loss: 0.058157
+accuracy: 0.987994
+total IoU: 0.976274
+ -- 090 / 125 --
+mean loss: 0.063479
+accuracy: 0.986603
+total IoU: 0.973560
+ -- 100 / 125 --
+mean loss: 0.061244
+accuracy: 0.987183
+total IoU: 0.974690
+ -- 110 / 125 --
+mean loss: 0.064585
+accuracy: 0.986908
+total IoU: 0.974154
+ -- 120 / 125 --
+mean loss: 0.059266
+accuracy: 0.987720
+total IoU: 0.975737
+one epoch time: 66.4136
+2020-11-30 16:25:23.129955
+---- EPOCH 050 EVALUATION ----
+eval mean loss: 0.104122
+eval point avg class IoU: 0.797430
+eval point accuracy: 0.845015
+eval point avg class acc: 0.845015
+------- IoU --------
+class 1, acc: 0.797430 
+
+Model saved in file: log2020_11_30_15_21_34/model.ckpt
+**** EPOCH 051 ****
+2020-11-30 16:25:30.018399
+ -- 010 / 125 --
+mean loss: 0.062798
+accuracy: 0.986603
+total IoU: 0.973560
+ -- 020 / 125 --
+mean loss: 0.054164
+accuracy: 0.988513
+total IoU: 0.977287
+ -- 030 / 125 --
+mean loss: 0.060706
+accuracy: 0.987262
+total IoU: 0.974844
+ -- 040 / 125 --
+mean loss: 0.056987
+accuracy: 0.988177
+total IoU: 0.976631
+ -- 050 / 125 --
+mean loss: 0.060111
+accuracy: 0.987476
+total IoU: 0.975261
+ -- 060 / 125 --
+mean loss: 0.063591
+accuracy: 0.986554
+total IoU: 0.973465
+ -- 070 / 125 --
+mean loss: 0.058801
+accuracy: 0.987830
+total IoU: 0.975952
+ -- 080 / 125 --
+mean loss: 0.063787
+accuracy: 0.986639
+total IoU: 0.973631
+ -- 090 / 125 --
+mean loss: 0.060353
+accuracy: 0.987109
+total IoU: 0.974547
+ -- 100 / 125 --
+mean loss: 0.060219
+accuracy: 0.987195
+total IoU: 0.974713
+ -- 110 / 125 --
+mean loss: 0.056741
+accuracy: 0.988129
+total IoU: 0.976536
+ -- 120 / 125 --
+mean loss: 0.062600
+accuracy: 0.986853
+total IoU: 0.974047
+one epoch time: 66.7110
+2020-11-30 16:26:36.729460
+---- EPOCH 051 EVALUATION ----
+eval mean loss: 0.104121
+eval point avg class IoU: 0.801962
+eval point accuracy: 0.854715
+eval point avg class acc: 0.854715
+------- IoU --------
+class 1, acc: 0.801962 
+
+**** EPOCH 052 ****
+2020-11-30 16:26:42.779904
+ -- 010 / 125 --
+mean loss: 0.061161
+accuracy: 0.987268
+total IoU: 0.974856
+ -- 020 / 125 --
+mean loss: 0.058798
+accuracy: 0.987604
+total IoU: 0.975511
+ -- 030 / 125 --
+mean loss: 0.061109
+accuracy: 0.987042
+total IoU: 0.974416
+ -- 040 / 125 --
+mean loss: 0.061332
+accuracy: 0.987207
+total IoU: 0.974737
+ -- 050 / 125 --
+mean loss: 0.058887
+accuracy: 0.987860
+total IoU: 0.976011
+ -- 060 / 125 --
+mean loss: 0.060765
+accuracy: 0.987427
+total IoU: 0.975166
+ -- 070 / 125 --
+mean loss: 0.065026
+accuracy: 0.986212
+total IoU: 0.972799
+ -- 080 / 125 --
+mean loss: 0.060131
+accuracy: 0.987524
+total IoU: 0.975356
+ -- 090 / 125 --
+mean loss: 0.063469
+accuracy: 0.987109
+total IoU: 0.974547
+ -- 100 / 125 --
+mean loss: 0.061966
+accuracy: 0.987067
+total IoU: 0.974464
+ -- 110 / 125 --
+mean loss: 0.058838
+accuracy: 0.987671
+total IoU: 0.975642
+ -- 120 / 125 --
+mean loss: 0.062607
+accuracy: 0.986896
+total IoU: 0.974131
+one epoch time: 66.6384
+2020-11-30 16:27:49.418405
+---- EPOCH 052 EVALUATION ----
+eval mean loss: 0.106954
+eval point avg class IoU: 0.801984
+eval point accuracy: 0.857015
+eval point avg class acc: 0.857015
+------- IoU --------
+class 1, acc: 0.801984 
+
+**** EPOCH 053 ****
+2020-11-30 16:27:55.407620
+ -- 010 / 125 --
+mean loss: 0.058731
+accuracy: 0.987579
+total IoU: 0.975463
+ -- 020 / 125 --
+mean loss: 0.059960
+accuracy: 0.987250
+total IoU: 0.974821
+ -- 030 / 125 --
+mean loss: 0.055631
+accuracy: 0.988190
+total IoU: 0.976655
+ -- 040 / 125 --
+mean loss: 0.056713
+accuracy: 0.988177
+total IoU: 0.976631
+ -- 050 / 125 --
+mean loss: 0.057003
+accuracy: 0.988049
+total IoU: 0.976381
+ -- 060 / 125 --
+mean loss: 0.061570
+accuracy: 0.987042
+total IoU: 0.974416
+ -- 070 / 125 --
+mean loss: 0.061271
+accuracy: 0.987122
+total IoU: 0.974571
+ -- 080 / 125 --
+mean loss: 0.061178
+accuracy: 0.987030
+total IoU: 0.974392
+ -- 090 / 125 --
+mean loss: 0.058103
+accuracy: 0.987433
+total IoU: 0.975178
+ -- 100 / 125 --
+mean loss: 0.064345
+accuracy: 0.986383
+total IoU: 0.973132
+ -- 110 / 125 --
+mean loss: 0.060718
+accuracy: 0.987457
+total IoU: 0.975225
+ -- 120 / 125 --
+mean loss: 0.059063
+accuracy: 0.987744
+total IoU: 0.975785
+one epoch time: 66.5301
+2020-11-30 16:29:01.937777
+---- EPOCH 053 EVALUATION ----
+eval mean loss: 0.110545
+eval point avg class IoU: 0.806242
+eval point accuracy: 0.863158
+eval point avg class acc: 0.863158
+------- IoU --------
+class 1, acc: 0.806242 
+
+**** EPOCH 054 ****
+2020-11-30 16:29:08.115879
+ -- 010 / 125 --
+mean loss: 0.057370
+accuracy: 0.988092
+total IoU: 0.976464
+ -- 020 / 125 --
+mean loss: 0.059552
+accuracy: 0.987469
+total IoU: 0.975249
+ -- 030 / 125 --
+mean loss: 0.060906
+accuracy: 0.986896
+total IoU: 0.974131
+ -- 040 / 125 --
+mean loss: 0.059991
+accuracy: 0.987280
+total IoU: 0.974880
+ -- 050 / 125 --
+mean loss: 0.060737
+accuracy: 0.987048
+total IoU: 0.974428
+ -- 060 / 125 --
+mean loss: 0.058624
+accuracy: 0.987671
+total IoU: 0.975642
+ -- 070 / 125 --
+mean loss: 0.057481
+accuracy: 0.988116
+total IoU: 0.976512
+ -- 080 / 125 --
+mean loss: 0.055648
+accuracy: 0.988342
+total IoU: 0.976953
+ -- 090 / 125 --
+mean loss: 0.057579
+accuracy: 0.987860
+total IoU: 0.976011
+ -- 100 / 125 --
+mean loss: 0.060000
+accuracy: 0.987463
+total IoU: 0.975237
+ -- 110 / 125 --
+mean loss: 0.060069
+accuracy: 0.987268
+total IoU: 0.974856
+ -- 120 / 125 --
+mean loss: 0.060514
+accuracy: 0.986945
+total IoU: 0.974226
+one epoch time: 66.6261
+2020-11-30 16:30:14.741975
+---- EPOCH 054 EVALUATION ----
+eval mean loss: 0.104704
+eval point avg class IoU: 0.808579
+eval point accuracy: 0.859386
+eval point avg class acc: 0.859386
+------- IoU --------
+class 1, acc: 0.808579 
+
+**** EPOCH 055 ****
+2020-11-30 16:30:20.793384
+ -- 010 / 125 --
+mean loss: 0.060826
+accuracy: 0.987311
+total IoU: 0.974940
+ -- 020 / 125 --
+mean loss: 0.055137
+accuracy: 0.988336
+total IoU: 0.976941
+ -- 030 / 125 --
+mean loss: 0.053459
+accuracy: 0.988739
+total IoU: 0.977729
+ -- 040 / 125 --
+mean loss: 0.059573
+accuracy: 0.987903
+total IoU: 0.976095
+ -- 050 / 125 --
+mean loss: 0.059718
+accuracy: 0.987238
+total IoU: 0.974797
+ -- 060 / 125 --
+mean loss: 0.059526
+accuracy: 0.987549
+total IoU: 0.975404
+ -- 070 / 125 --
+mean loss: 0.057594
+accuracy: 0.987921
+total IoU: 0.976131
+ -- 080 / 125 --
+mean loss: 0.059438
+accuracy: 0.987482
+total IoU: 0.975273
+ -- 090 / 125 --
+mean loss: 0.058491
+accuracy: 0.987494
+total IoU: 0.975297
+ -- 100 / 125 --
+mean loss: 0.055372
+accuracy: 0.988330
+total IoU: 0.976929
+ -- 110 / 125 --
+mean loss: 0.061446
+accuracy: 0.987329
+total IoU: 0.974975
+ -- 120 / 125 --
+mean loss: 0.063352
+accuracy: 0.986517
+total IoU: 0.973393
+one epoch time: 66.2595
+2020-11-30 16:31:27.052947
+---- EPOCH 055 EVALUATION ----
+eval mean loss: 0.110630
+eval point avg class IoU: 0.795040
+eval point accuracy: 0.838513
+eval point avg class acc: 0.838513
+------- IoU --------
+class 1, acc: 0.795040 
+
+**** EPOCH 056 ****
+2020-11-30 16:31:33.018264
+ -- 010 / 125 --
+mean loss: 0.056797
+accuracy: 0.987982
+total IoU: 0.976250
+ -- 020 / 125 --
+mean loss: 0.061451
+accuracy: 0.987073
+total IoU: 0.974475
+ -- 030 / 125 --
+mean loss: 0.059768
+accuracy: 0.987384
+total IoU: 0.975082
+ -- 040 / 125 --
+mean loss: 0.062094
+accuracy: 0.986450
+total IoU: 0.973263
+ -- 050 / 125 --
+mean loss: 0.055976
+accuracy: 0.988269
+total IoU: 0.976810
+ -- 060 / 125 --
+mean loss: 0.061187
+accuracy: 0.986957
+total IoU: 0.974249
+ -- 070 / 125 --
+mean loss: 0.059803
+accuracy: 0.986987
+total IoU: 0.974309
+ -- 080 / 125 --
+mean loss: 0.057263
+accuracy: 0.987842
+total IoU: 0.975976
+ -- 090 / 125 --
+mean loss: 0.060236
+accuracy: 0.987292
+total IoU: 0.974904
+ -- 100 / 125 --
+mean loss: 0.061497
+accuracy: 0.987103
+total IoU: 0.974535
+ -- 110 / 125 --
+mean loss: 0.062517
+accuracy: 0.986615
+total IoU: 0.973584
+ -- 120 / 125 --
+mean loss: 0.062356
+accuracy: 0.987195
+total IoU: 0.974713
+one epoch time: 66.7019
+2020-11-30 16:32:39.720248
+---- EPOCH 056 EVALUATION ----
+eval mean loss: 0.116893
+eval point avg class IoU: 0.792217
+eval point accuracy: 0.842536
+eval point avg class acc: 0.842536
+------- IoU --------
+class 1, acc: 0.792217 
+
+**** EPOCH 057 ****
+2020-11-30 16:32:45.698773
+ -- 010 / 125 --
+mean loss: 0.058230
+accuracy: 0.987872
+total IoU: 0.976035
+ -- 020 / 125 --
+mean loss: 0.059357
+accuracy: 0.987531
+total IoU: 0.975368
+ -- 030 / 125 --
+mean loss: 0.059746
+accuracy: 0.987604
+total IoU: 0.975511
+ -- 040 / 125 --
+mean loss: 0.057918
+accuracy: 0.987720
+total IoU: 0.975737
+ -- 050 / 125 --
+mean loss: 0.056955
+accuracy: 0.987738
+total IoU: 0.975773
+ -- 060 / 125 --
+mean loss: 0.058799
+accuracy: 0.987500
+total IoU: 0.975309
+ -- 070 / 125 --
+mean loss: 0.061846
+accuracy: 0.986926
+total IoU: 0.974190
+ -- 080 / 125 --
+mean loss: 0.059728
+accuracy: 0.987317
+total IoU: 0.974951
+ -- 090 / 125 --
+mean loss: 0.057882
+accuracy: 0.987964
+total IoU: 0.976214
+ -- 100 / 125 --
+mean loss: 0.062052
+accuracy: 0.986835
+total IoU: 0.974012
+ -- 110 / 125 --
+mean loss: 0.058784
+accuracy: 0.987701
+total IoU: 0.975702
+ -- 120 / 125 --
+mean loss: 0.058728
+accuracy: 0.987708
+total IoU: 0.975714
+one epoch time: 66.3548
+2020-11-30 16:33:52.053639
+---- EPOCH 057 EVALUATION ----
+eval mean loss: 0.109446
+eval point avg class IoU: 0.809191
+eval point accuracy: 0.865385
+eval point avg class acc: 0.865385
+------- IoU --------
+class 1, acc: 0.809191 
+
+**** EPOCH 058 ****
+2020-11-30 16:33:57.986261
+ -- 010 / 125 --
+mean loss: 0.055019
+accuracy: 0.988318
+total IoU: 0.976906
+ -- 020 / 125 --
+mean loss: 0.056409
+accuracy: 0.988062
+total IoU: 0.976405
+ -- 030 / 125 --
+mean loss: 0.059067
+accuracy: 0.987756
+total IoU: 0.975809
+ -- 040 / 125 --
+mean loss: 0.061485
+accuracy: 0.987134
+total IoU: 0.974594
+ -- 050 / 125 --
+mean loss: 0.059173
+accuracy: 0.986951
+total IoU: 0.974238
+ -- 060 / 125 --
+mean loss: 0.061524
+accuracy: 0.986993
+total IoU: 0.974321
+ -- 070 / 125 --
+mean loss: 0.057145
+accuracy: 0.987622
+total IoU: 0.975547
+ -- 080 / 125 --
+mean loss: 0.055701
+accuracy: 0.988354
+total IoU: 0.976977
+ -- 090 / 125 --
+mean loss: 0.062351
+accuracy: 0.986646
+total IoU: 0.973643
+ -- 100 / 125 --
+mean loss: 0.054829
+accuracy: 0.988574
+total IoU: 0.977407
+ -- 110 / 125 --
+mean loss: 0.055046
+accuracy: 0.988446
+total IoU: 0.977156
+ -- 120 / 125 --
+mean loss: 0.061353
+accuracy: 0.987115
+total IoU: 0.974559
+one epoch time: 66.7765
+2020-11-30 16:35:04.762845
+---- EPOCH 058 EVALUATION ----
+eval mean loss: 0.114387
+eval point avg class IoU: 0.805134
+eval point accuracy: 0.847422
+eval point avg class acc: 0.847422
+------- IoU --------
+class 1, acc: 0.805134 
+
+**** EPOCH 059 ****
+2020-11-30 16:35:10.781569
+ -- 010 / 125 --
+mean loss: 0.057331
+accuracy: 0.987854
+total IoU: 0.976000
+ -- 020 / 125 --
+mean loss: 0.059673
+accuracy: 0.987335
+total IoU: 0.974987
+ -- 030 / 125 --
+mean loss: 0.056385
+accuracy: 0.988293
+total IoU: 0.976858
+ -- 040 / 125 --
+mean loss: 0.058854
+accuracy: 0.987805
+total IoU: 0.975904
+ -- 050 / 125 --
+mean loss: 0.057561
+accuracy: 0.987836
+total IoU: 0.975964
+ -- 060 / 125 --
+mean loss: 0.061175
+accuracy: 0.987360
+total IoU: 0.975035
+ -- 070 / 125 --
+mean loss: 0.065245
+accuracy: 0.986304
+total IoU: 0.972978
+ -- 080 / 125 --
+mean loss: 0.059471
+accuracy: 0.987451
+total IoU: 0.975213
+ -- 090 / 125 --
+mean loss: 0.061157
+accuracy: 0.987280
+total IoU: 0.974880
+ -- 100 / 125 --
+mean loss: 0.065297
+accuracy: 0.986169
+total IoU: 0.972716
+ -- 110 / 125 --
+mean loss: 0.059179
+accuracy: 0.987567
+total IoU: 0.975440
+ -- 120 / 125 --
+mean loss: 0.061034
+accuracy: 0.987146
+total IoU: 0.974618
+one epoch time: 66.9191
+2020-11-30 16:36:17.700753
+---- EPOCH 059 EVALUATION ----
+eval mean loss: 0.113790
+eval point avg class IoU: 0.797894
+eval point accuracy: 0.846452
+eval point avg class acc: 0.846452
+------- IoU --------
+class 1, acc: 0.797894 
+
+**** EPOCH 060 ****
+2020-11-30 16:36:23.727929
+ -- 010 / 125 --
+mean loss: 0.063748
+accuracy: 0.986694
+total IoU: 0.973738
+ -- 020 / 125 --
+mean loss: 0.059415
+accuracy: 0.987494
+total IoU: 0.975297
+ -- 030 / 125 --
+mean loss: 0.061654
+accuracy: 0.986682
+total IoU: 0.973714
+ -- 040 / 125 --
+mean loss: 0.060961
+accuracy: 0.987231
+total IoU: 0.974785
+ -- 050 / 125 --
+mean loss: 0.062943
+accuracy: 0.986859
+total IoU: 0.974059
+ -- 060 / 125 --
+mean loss: 0.054298
+accuracy: 0.988770
+total IoU: 0.977789
+ -- 070 / 125 --
+mean loss: 0.062006
+accuracy: 0.987061
+total IoU: 0.974452
+ -- 080 / 125 --
+mean loss: 0.055855
+accuracy: 0.988507
+total IoU: 0.977275
+ -- 090 / 125 --
+mean loss: 0.060378
+accuracy: 0.987164
+total IoU: 0.974654
+ -- 100 / 125 --
+mean loss: 0.059005
+accuracy: 0.987701
+total IoU: 0.975702
+ -- 110 / 125 --
+mean loss: 0.060694
+accuracy: 0.987323
+total IoU: 0.974963
+ -- 120 / 125 --
+mean loss: 0.062454
+accuracy: 0.986548
+total IoU: 0.973453
+one epoch time: 66.6734
+2020-11-30 16:37:30.401363
+---- EPOCH 060 EVALUATION ----
+eval mean loss: 0.112783
+eval point avg class IoU: 0.800832
+eval point accuracy: 0.864846
+eval point avg class acc: 0.864846
+------- IoU --------
+class 1, acc: 0.800832 
+
+Model saved in file: log2020_11_30_15_21_34/model.ckpt
+**** EPOCH 061 ****
+2020-11-30 16:37:37.274201
+ -- 010 / 125 --
+mean loss: 0.068089
+accuracy: 0.986310
+total IoU: 0.972989
+ -- 020 / 125 --
+mean loss: 0.073886
+accuracy: 0.984912
+total IoU: 0.970273
+ -- 030 / 125 --
+mean loss: 0.077317
+accuracy: 0.984528
+total IoU: 0.969527
+ -- 040 / 125 --
+mean loss: 0.084030
+accuracy: 0.982300
+total IoU: 0.965215
+ -- 050 / 125 --
+mean loss: 0.075313
+accuracy: 0.984576
+total IoU: 0.969621
+ -- 060 / 125 --
+mean loss: 0.069378
+accuracy: 0.985870
+total IoU: 0.972134
+ -- 070 / 125 --
+mean loss: 0.066284
+accuracy: 0.986432
+total IoU: 0.973227
+ -- 080 / 125 --
+mean loss: 0.067734
+accuracy: 0.986072
+total IoU: 0.972526
+ -- 090 / 125 --
+mean loss: 0.072244
+accuracy: 0.985248
+total IoU: 0.970925
+ -- 100 / 125 --
+mean loss: 0.075127
+accuracy: 0.984338
+total IoU: 0.969160
+ -- 110 / 125 --
+mean loss: 0.069326
+accuracy: 0.985742
+total IoU: 0.971885
+ -- 120 / 125 --
+mean loss: 0.063448
+accuracy: 0.986902
+total IoU: 0.974142
+one epoch time: 67.0098
+2020-11-30 16:38:44.284024
+---- EPOCH 061 EVALUATION ----
+eval mean loss: 0.116921
+eval point avg class IoU: 0.769013
+eval point accuracy: 0.876594
+eval point avg class acc: 0.876594
+------- IoU --------
+class 1, acc: 0.769013 
+
+**** EPOCH 062 ****
+2020-11-30 16:38:50.310754
+ -- 010 / 125 --
+mean loss: 0.065085
+accuracy: 0.986731
+total IoU: 0.973809
+ -- 020 / 125 --
+mean loss: 0.066756
+accuracy: 0.985968
+total IoU: 0.972324
+ -- 030 / 125 --
+mean loss: 0.064812
+accuracy: 0.986487
+total IoU: 0.973334
+ -- 040 / 125 --
+mean loss: 0.058406
+accuracy: 0.987933
+total IoU: 0.976154
+ -- 050 / 125 --
+mean loss: 0.064532
+accuracy: 0.986078
+total IoU: 0.972538
+ -- 060 / 125 --
+mean loss: 0.061438
+accuracy: 0.987024
+total IoU: 0.974380
+ -- 070 / 125 --
+mean loss: 0.065064
+accuracy: 0.986420
+total IoU: 0.973203
+ -- 080 / 125 --
+mean loss: 0.064570
+accuracy: 0.986255
+total IoU: 0.972882
+ -- 090 / 125 --
+mean loss: 0.057671
+accuracy: 0.988062
+total IoU: 0.976405
+ -- 100 / 125 --
+mean loss: 0.061717
+accuracy: 0.986908
+total IoU: 0.974154
+ -- 110 / 125 --
+mean loss: 0.059690
+accuracy: 0.987543
+total IoU: 0.975392
+ -- 120 / 125 --
+mean loss: 0.064186
+accuracy: 0.986591
+total IoU: 0.973536
+one epoch time: 66.7232
+2020-11-30 16:39:57.034019
+---- EPOCH 062 EVALUATION ----
+eval mean loss: 0.110662
+eval point avg class IoU: 0.798873
+eval point accuracy: 0.870595
+eval point avg class acc: 0.870595
+------- IoU --------
+class 1, acc: 0.798873 
+
+**** EPOCH 063 ****
+2020-11-30 16:40:03.029006
+ -- 010 / 125 --
+mean loss: 0.059673
+accuracy: 0.987628
+total IoU: 0.975559
+ -- 020 / 125 --
+mean loss: 0.055429
+accuracy: 0.988153
+total IoU: 0.976584
+ -- 030 / 125 --
+mean loss: 0.054277
+accuracy: 0.988702
+total IoU: 0.977657
+ -- 040 / 125 --
+mean loss: 0.058657
+accuracy: 0.987805
+total IoU: 0.975904
+ -- 050 / 125 --
+mean loss: 0.057629
+accuracy: 0.987634
+total IoU: 0.975571
+ -- 060 / 125 --
+mean loss: 0.058178
+accuracy: 0.987646
+total IoU: 0.975594
+ -- 070 / 125 --
+mean loss: 0.062249
+accuracy: 0.986823
+total IoU: 0.973988
+ -- 080 / 125 --
+mean loss: 0.061927
+accuracy: 0.986829
+total IoU: 0.974000
+ -- 090 / 125 --
+mean loss: 0.058970
+accuracy: 0.987878
+total IoU: 0.976047
+ -- 100 / 125 --
+mean loss: 0.060460
+accuracy: 0.987048
+total IoU: 0.974428
+ -- 110 / 125 --
+mean loss: 0.056307
+accuracy: 0.988043
+total IoU: 0.976369
+ -- 120 / 125 --
+mean loss: 0.059464
+accuracy: 0.987225
+total IoU: 0.974773
+one epoch time: 68.0986
+2020-11-30 16:41:11.127715
+---- EPOCH 063 EVALUATION ----
+eval mean loss: 0.106532
+eval point avg class IoU: 0.802134
+eval point accuracy: 0.872247
+eval point avg class acc: 0.872247
+------- IoU --------
+class 1, acc: 0.802134 
+
+**** EPOCH 064 ****
+2020-11-30 16:41:17.156504
+ -- 010 / 125 --
+mean loss: 0.055728
+accuracy: 0.988043
+total IoU: 0.976369
+ -- 020 / 125 --
+mean loss: 0.057329
+accuracy: 0.987842
+total IoU: 0.975976
+ -- 030 / 125 --
+mean loss: 0.054547
+accuracy: 0.988403
+total IoU: 0.977073
+ -- 040 / 125 --
+mean loss: 0.057442
+accuracy: 0.987885
+total IoU: 0.976059
+ -- 050 / 125 --
+mean loss: 0.055657
+accuracy: 0.988251
+total IoU: 0.976774
+ -- 060 / 125 --
+mean loss: 0.056905
+accuracy: 0.987988
+total IoU: 0.976262
+ -- 070 / 125 --
+mean loss: 0.059407
+accuracy: 0.987421
+total IoU: 0.975154
+ -- 080 / 125 --
+mean loss: 0.058581
+accuracy: 0.987567
+total IoU: 0.975440
+ -- 090 / 125 --
+mean loss: 0.057943
+accuracy: 0.987592
+total IoU: 0.975487
+ -- 100 / 125 --
+mean loss: 0.055768
+accuracy: 0.988409
+total IoU: 0.977084
+ -- 110 / 125 --
+mean loss: 0.058940
+accuracy: 0.987756
+total IoU: 0.975809
+ -- 120 / 125 --
+mean loss: 0.059301
+accuracy: 0.987518
+total IoU: 0.975344
+one epoch time: 67.1432
+2020-11-30 16:42:24.299744
+---- EPOCH 064 EVALUATION ----
+eval mean loss: 0.103333
+eval point avg class IoU: 0.812050
+eval point accuracy: 0.878858
+eval point avg class acc: 0.878858
+------- IoU --------
+class 1, acc: 0.812050 
+
+**** EPOCH 065 ****
+2020-11-30 16:42:30.443709
+ -- 010 / 125 --
+mean loss: 0.052369
+accuracy: 0.989227
+total IoU: 0.978684
+ -- 020 / 125 --
+mean loss: 0.056474
+accuracy: 0.988184
+total IoU: 0.976643
+ -- 030 / 125 --
+mean loss: 0.058730
+accuracy: 0.987543
+total IoU: 0.975392
+ -- 040 / 125 --
+mean loss: 0.054234
+accuracy: 0.988336
+total IoU: 0.976941
+ -- 050 / 125 --
+mean loss: 0.056058
+accuracy: 0.987756
+total IoU: 0.975809
+ -- 060 / 125 --
+mean loss: 0.056790
+accuracy: 0.987921
+total IoU: 0.976131
+ -- 070 / 125 --
+mean loss: 0.054145
+accuracy: 0.988666
+total IoU: 0.977586
+ -- 080 / 125 --
+mean loss: 0.053114
+accuracy: 0.988916
+total IoU: 0.978075
+ -- 090 / 125 --
+mean loss: 0.056817
+accuracy: 0.988226
+total IoU: 0.976727
+ -- 100 / 125 --
+mean loss: 0.058978
+accuracy: 0.987622
+total IoU: 0.975547
+ -- 110 / 125 --
+mean loss: 0.058714
+accuracy: 0.987921
+total IoU: 0.976131
+ -- 120 / 125 --
+mean loss: 0.056370
+accuracy: 0.988080
+total IoU: 0.976441
+one epoch time: 67.6081
+2020-11-30 16:43:38.051876
+---- EPOCH 065 EVALUATION ----
+eval mean loss: 0.110678
+eval point avg class IoU: 0.807184
+eval point accuracy: 0.855003
+eval point avg class acc: 0.855003
+------- IoU --------
+class 1, acc: 0.807184 
+
+**** EPOCH 066 ****
+2020-11-30 16:43:44.038222
+ -- 010 / 125 --
+mean loss: 0.055741
+accuracy: 0.988196
+total IoU: 0.976667
+ -- 020 / 125 --
+mean loss: 0.053627
+accuracy: 0.988678
+total IoU: 0.977609
+ -- 030 / 125 --
+mean loss: 0.055153
+accuracy: 0.988440
+total IoU: 0.977144
+ -- 040 / 125 --
+mean loss: 0.056519
+accuracy: 0.988464
+total IoU: 0.977192
+ -- 050 / 125 --
+mean loss: 0.057046
+accuracy: 0.988037
+total IoU: 0.976357
+ -- 060 / 125 --
+mean loss: 0.054092
+accuracy: 0.988385
+total IoU: 0.977037
+ -- 070 / 125 --
+mean loss: 0.055630
+accuracy: 0.988312
+total IoU: 0.976894
+ -- 080 / 125 --
+mean loss: 0.057837
+accuracy: 0.987555
+total IoU: 0.975416
+ -- 090 / 125 --
+mean loss: 0.057445
+accuracy: 0.987683
+total IoU: 0.975666
+ -- 100 / 125 --
+mean loss: 0.054699
+accuracy: 0.988379
+total IoU: 0.977025
+ -- 110 / 125 --
+mean loss: 0.056950
+accuracy: 0.987744
+total IoU: 0.975785
+ -- 120 / 125 --
+mean loss: 0.053130
+accuracy: 0.988898
+total IoU: 0.978039
+one epoch time: 67.2085
+2020-11-30 16:44:51.246817
+---- EPOCH 066 EVALUATION ----
+eval mean loss: 0.112501
+eval point avg class IoU: 0.812185
+eval point accuracy: 0.863014
+eval point avg class acc: 0.863014
+------- IoU --------
+class 1, acc: 0.812185 
+
+**** EPOCH 067 ****
+2020-11-30 16:44:57.312168
+ -- 010 / 125 --
+mean loss: 0.052959
+accuracy: 0.988934
+total IoU: 0.978111
+ -- 020 / 125 --
+mean loss: 0.057239
+accuracy: 0.988147
+total IoU: 0.976572
+ -- 030 / 125 --
+mean loss: 0.054922
+accuracy: 0.988464
+total IoU: 0.977192
+ -- 040 / 125 --
+mean loss: 0.053657
+accuracy: 0.988525
+total IoU: 0.977311
+ -- 050 / 125 --
+mean loss: 0.054811
+accuracy: 0.988330
+total IoU: 0.976929
+ -- 060 / 125 --
+mean loss: 0.056298
+accuracy: 0.988092
+total IoU: 0.976464
+ -- 070 / 125 --
+mean loss: 0.055301
+accuracy: 0.988043
+total IoU: 0.976369
+ -- 080 / 125 --
+mean loss: 0.053488
+accuracy: 0.988818
+total IoU: 0.977884
+ -- 090 / 125 --
+mean loss: 0.057543
+accuracy: 0.987805
+total IoU: 0.975904
+ -- 100 / 125 --
+mean loss: 0.056096
+accuracy: 0.987982
+total IoU: 0.976250
+ -- 110 / 125 --
+mean loss: 0.055213
+accuracy: 0.988135
+total IoU: 0.976548
+ -- 120 / 125 --
+mean loss: 0.055570
+accuracy: 0.988007
+total IoU: 0.976297
+one epoch time: 67.3744
+2020-11-30 16:46:04.686625
+---- EPOCH 067 EVALUATION ----
+eval mean loss: 0.108127
+eval point avg class IoU: 0.807784
+eval point accuracy: 0.855290
+eval point avg class acc: 0.855290
+------- IoU --------
+class 1, acc: 0.807784 
+
+**** EPOCH 068 ****
+2020-11-30 16:46:11.024791
+ -- 010 / 125 --
+mean loss: 0.056317
+accuracy: 0.988129
+total IoU: 0.976536
+ -- 020 / 125 --
+mean loss: 0.056493
+accuracy: 0.988251
+total IoU: 0.976774
+ -- 030 / 125 --
+mean loss: 0.055563
+accuracy: 0.987891
+total IoU: 0.976071
+ -- 040 / 125 --
+mean loss: 0.055850
+accuracy: 0.988116
+total IoU: 0.976512
+ -- 050 / 125 --
+mean loss: 0.057631
+accuracy: 0.987708
+total IoU: 0.975714
+ -- 060 / 125 --
+mean loss: 0.051837
+accuracy: 0.989111
+total IoU: 0.978457
+ -- 070 / 125 --
+mean loss: 0.051157
+accuracy: 0.988879
+total IoU: 0.978003
+ -- 080 / 125 --
+mean loss: 0.056753
+accuracy: 0.988019
+total IoU: 0.976321
+ -- 090 / 125 --
+mean loss: 0.055903
+accuracy: 0.987970
+total IoU: 0.976226
+ -- 100 / 125 --
+mean loss: 0.054119
+accuracy: 0.988629
+total IoU: 0.977514
+ -- 110 / 125 --
+mean loss: 0.053839
+accuracy: 0.988464
+total IoU: 0.977192
+ -- 120 / 125 --
+mean loss: 0.056943
+accuracy: 0.987933
+total IoU: 0.976154
+one epoch time: 67.8692
+2020-11-30 16:47:18.894032
+---- EPOCH 068 EVALUATION ----
+eval mean loss: 0.115514
+eval point avg class IoU: 0.804505
+eval point accuracy: 0.852021
+eval point avg class acc: 0.852021
+------- IoU --------
+class 1, acc: 0.804505 
+
+**** EPOCH 069 ****
+2020-11-30 16:47:25.135714
+ -- 010 / 125 --
+mean loss: 0.052246
+accuracy: 0.988837
+total IoU: 0.977920
+ -- 020 / 125 --
+mean loss: 0.055783
+accuracy: 0.987836
+total IoU: 0.975964
+ -- 030 / 125 --
+mean loss: 0.056474
+accuracy: 0.987994
+total IoU: 0.976274
+ -- 040 / 125 --
+mean loss: 0.052886
+accuracy: 0.989105
+total IoU: 0.978445
+ -- 050 / 125 --
+mean loss: 0.055267
+accuracy: 0.988336
+total IoU: 0.976941
+ -- 060 / 125 --
+mean loss: 0.054014
+accuracy: 0.988495
+total IoU: 0.977251
+ -- 070 / 125 --
+mean loss: 0.060094
+accuracy: 0.987439
+total IoU: 0.975190
+ -- 080 / 125 --
+mean loss: 0.056353
+accuracy: 0.988141
+total IoU: 0.976560
+ -- 090 / 125 --
+mean loss: 0.056323
+accuracy: 0.988098
+total IoU: 0.976476
+ -- 100 / 125 --
+mean loss: 0.055861
+accuracy: 0.988202
+total IoU: 0.976679
+ -- 110 / 125 --
+mean loss: 0.058895
+accuracy: 0.987646
+total IoU: 0.975594
+ -- 120 / 125 --
+mean loss: 0.054429
+accuracy: 0.988672
+total IoU: 0.977598
+one epoch time: 67.4765
+2020-11-30 16:48:32.612346
+---- EPOCH 069 EVALUATION ----
+eval mean loss: 0.129184
+eval point avg class IoU: 0.793965
+eval point accuracy: 0.837579
+eval point avg class acc: 0.837579
+------- IoU --------
+class 1, acc: 0.793965 
+
+**** EPOCH 070 ****
+2020-11-30 16:48:38.804354
+ -- 010 / 125 --
+mean loss: 0.055074
+accuracy: 0.988293
+total IoU: 0.976858
+ -- 020 / 125 --
+mean loss: 0.054266
+accuracy: 0.988165
+total IoU: 0.976607
+ -- 030 / 125 --
+mean loss: 0.053374
+accuracy: 0.988794
+total IoU: 0.977836
+ -- 040 / 125 --
+mean loss: 0.054750
+accuracy: 0.988611
+total IoU: 0.977478
+ -- 050 / 125 --
+mean loss: 0.053223
+accuracy: 0.988824
+total IoU: 0.977896
+ -- 060 / 125 --
+mean loss: 0.058011
+accuracy: 0.987781
+total IoU: 0.975857
+ -- 070 / 125 --
+mean loss: 0.055173
+accuracy: 0.988159
+total IoU: 0.976595
+ -- 080 / 125 --
+mean loss: 0.059099
+accuracy: 0.987573
+total IoU: 0.975452
+ -- 090 / 125 --
+mean loss: 0.053702
+accuracy: 0.988776
+total IoU: 0.977800
+ -- 100 / 125 --
+mean loss: 0.050181
+accuracy: 0.989490
+total IoU: 0.979198
+ -- 110 / 125 --
+mean loss: 0.056504
+accuracy: 0.988171
+total IoU: 0.976619
+ -- 120 / 125 --
+mean loss: 0.051213
+accuracy: 0.989026
+total IoU: 0.978290
+one epoch time: 67.2558
+2020-11-30 16:49:46.060143
+---- EPOCH 070 EVALUATION ----
+eval mean loss: 0.133333
+eval point avg class IoU: 0.798255
+eval point accuracy: 0.851195
+eval point avg class acc: 0.851195
+------- IoU --------
+class 1, acc: 0.798255 
+
+Model saved in file: log2020_11_30_15_21_34/model.ckpt
+**** EPOCH 071 ****
+2020-11-30 16:49:52.963955
+ -- 010 / 125 --
+mean loss: 0.052635
+accuracy: 0.989056
+total IoU: 0.978350
+ -- 020 / 125 --
+mean loss: 0.052826
+accuracy: 0.988934
+total IoU: 0.978111
+ -- 030 / 125 --
+mean loss: 0.056976
+accuracy: 0.987872
+total IoU: 0.976035
+ -- 040 / 125 --
+mean loss: 0.054517
+accuracy: 0.988538
+total IoU: 0.977335
+ -- 050 / 125 --
+mean loss: 0.057035
+accuracy: 0.987689
+total IoU: 0.975678
+ -- 060 / 125 --
+mean loss: 0.054491
+accuracy: 0.988232
+total IoU: 0.976739
+ -- 070 / 125 --
+mean loss: 0.055173
+accuracy: 0.988568
+total IoU: 0.977395
+ -- 080 / 125 --
+mean loss: 0.057816
+accuracy: 0.987689
+total IoU: 0.975678
+ -- 090 / 125 --
+mean loss: 0.051386
+accuracy: 0.989160
+total IoU: 0.978553
+ -- 100 / 125 --
+mean loss: 0.053098
+accuracy: 0.988599
+total IoU: 0.977454
+ -- 110 / 125 --
+mean loss: 0.055870
+accuracy: 0.988123
+total IoU: 0.976524
+ -- 120 / 125 --
+mean loss: 0.048453
+accuracy: 0.989844
+total IoU: 0.979892
+one epoch time: 66.7608
+2020-11-30 16:50:59.724759
+---- EPOCH 071 EVALUATION ----
+eval mean loss: 0.126303
+eval point avg class IoU: 0.805160
+eval point accuracy: 0.857661
+eval point avg class acc: 0.857661
+------- IoU --------
+class 1, acc: 0.805160 
+
+**** EPOCH 072 ****
+2020-11-30 16:51:05.844336
+ -- 010 / 125 --
+mean loss: 0.054496
+accuracy: 0.988617
+total IoU: 0.977490
+ -- 020 / 125 --
+mean loss: 0.055817
+accuracy: 0.988318
+total IoU: 0.976906
+ -- 030 / 125 --
+mean loss: 0.052077
+accuracy: 0.989014
+total IoU: 0.978266
+ -- 040 / 125 --
+mean loss: 0.052084
+accuracy: 0.989227
+total IoU: 0.978684
+ -- 050 / 125 --
+mean loss: 0.056464
+accuracy: 0.988080
+total IoU: 0.976441
+ -- 060 / 125 --
+mean loss: 0.057388
+accuracy: 0.987915
+total IoU: 0.976119
+ -- 070 / 125 --
+mean loss: 0.058143
+accuracy: 0.987823
+total IoU: 0.975940
+ -- 080 / 125 --
+mean loss: 0.058169
+accuracy: 0.987433
+total IoU: 0.975178
+ -- 090 / 125 --
+mean loss: 0.052540
+accuracy: 0.988782
+total IoU: 0.977812
+ -- 100 / 125 --
+mean loss: 0.058576
+accuracy: 0.987781
+total IoU: 0.975857
+ -- 110 / 125 --
+mean loss: 0.054830
+accuracy: 0.988184
+total IoU: 0.976643
+ -- 120 / 125 --
+mean loss: 0.054543
+accuracy: 0.988306
+total IoU: 0.976882
+one epoch time: 66.7810
+2020-11-30 16:52:12.625390
+---- EPOCH 072 EVALUATION ----
+eval mean loss: 0.115182
+eval point avg class IoU: 0.814358
+eval point accuracy: 0.860320
+eval point avg class acc: 0.860320
+------- IoU --------
+class 1, acc: 0.814358 
+
+**** EPOCH 073 ****
+2020-11-30 16:52:18.735604
+ -- 010 / 125 --
+mean loss: 0.052209
+accuracy: 0.989087
+total IoU: 0.978409
+ -- 020 / 125 --
+mean loss: 0.051272
+accuracy: 0.988617
+total IoU: 0.977490
+ -- 030 / 125 --
+mean loss: 0.056239
+accuracy: 0.987744
+total IoU: 0.975785
+ -- 040 / 125 --
+mean loss: 0.054110
+accuracy: 0.988715
+total IoU: 0.977681
+ -- 050 / 125 --
+mean loss: 0.056658
+accuracy: 0.987854
+total IoU: 0.976000
+ -- 060 / 125 --
+mean loss: 0.051608
+accuracy: 0.989215
+total IoU: 0.978660
+ -- 070 / 125 --
+mean loss: 0.052113
+accuracy: 0.989026
+total IoU: 0.978290
+ -- 080 / 125 --
+mean loss: 0.052161
+accuracy: 0.988696
+total IoU: 0.977645
+ -- 090 / 125 --
+mean loss: 0.053148
+accuracy: 0.988562
+total IoU: 0.977383
+ -- 100 / 125 --
+mean loss: 0.054799
+accuracy: 0.988458
+total IoU: 0.977180
+ -- 110 / 125 --
+mean loss: 0.054948
+accuracy: 0.988623
+total IoU: 0.977502
+ -- 120 / 125 --
+mean loss: 0.055882
+accuracy: 0.988245
+total IoU: 0.976762
+one epoch time: 67.1775
+2020-11-30 16:53:25.913115
+---- EPOCH 073 EVALUATION ----
+eval mean loss: 0.117984
+eval point avg class IoU: 0.811337
+eval point accuracy: 0.861793
+eval point avg class acc: 0.861793
+------- IoU --------
+class 1, acc: 0.811337 
+
+**** EPOCH 074 ****
+2020-11-30 16:53:32.010719
+ -- 010 / 125 --
+mean loss: 0.055118
+accuracy: 0.988208
+total IoU: 0.976691
+ -- 020 / 125 --
+mean loss: 0.050288
+accuracy: 0.989130
+total IoU: 0.978493
+ -- 030 / 125 --
+mean loss: 0.057754
+accuracy: 0.987939
+total IoU: 0.976166
+ -- 040 / 125 --
+mean loss: 0.057725
+accuracy: 0.987793
+total IoU: 0.975880
+ -- 050 / 125 --
+mean loss: 0.053443
+accuracy: 0.988696
+total IoU: 0.977645
+ -- 060 / 125 --
+mean loss: 0.056873
+accuracy: 0.988049
+total IoU: 0.976381
+ -- 070 / 125 --
+mean loss: 0.058748
+accuracy: 0.987622
+total IoU: 0.975547
+ -- 080 / 125 --
+mean loss: 0.056084
+accuracy: 0.988373
+total IoU: 0.977013
+ -- 090 / 125 --
+mean loss: 0.057052
+accuracy: 0.987964
+total IoU: 0.976214
+ -- 100 / 125 --
+mean loss: 0.054395
+accuracy: 0.988733
+total IoU: 0.977717
+ -- 110 / 125 --
+mean loss: 0.055967
+accuracy: 0.987885
+total IoU: 0.976059
+ -- 120 / 125 --
+mean loss: 0.055650
+accuracy: 0.988013
+total IoU: 0.976309
+one epoch time: 67.1938
+2020-11-30 16:54:39.204531
+---- EPOCH 074 EVALUATION ----
+eval mean loss: 0.120287
+eval point avg class IoU: 0.803532
+eval point accuracy: 0.850009
+eval point avg class acc: 0.850009
+------- IoU --------
+class 1, acc: 0.803532 
+
+**** EPOCH 075 ****
+2020-11-30 16:54:45.184090
+ -- 010 / 125 --
+mean loss: 0.051985
+accuracy: 0.989319
+total IoU: 0.978863
+ -- 020 / 125 --
+mean loss: 0.057743
+accuracy: 0.987775
+total IoU: 0.975845
+ -- 030 / 125 --
+mean loss: 0.053254
+accuracy: 0.988586
+total IoU: 0.977430
+ -- 040 / 125 --
+mean loss: 0.054872
+accuracy: 0.988489
+total IoU: 0.977240
+ -- 050 / 125 --
+mean loss: 0.057395
+accuracy: 0.988098
+total IoU: 0.976476
+ -- 060 / 125 --
+mean loss: 0.055337
+accuracy: 0.988177
+total IoU: 0.976631
+ -- 070 / 125 --
+mean loss: 0.055269
+accuracy: 0.988623
+total IoU: 0.977502
+ -- 080 / 125 --
+mean loss: 0.056019
+accuracy: 0.987909
+total IoU: 0.976107
+ -- 090 / 125 --
+mean loss: 0.055393
+accuracy: 0.988062
+total IoU: 0.976405
+ -- 100 / 125 --
+mean loss: 0.051969
+accuracy: 0.989014
+total IoU: 0.978266
+ -- 110 / 125 --
+mean loss: 0.051169
+accuracy: 0.989081
+total IoU: 0.978398
+ -- 120 / 125 --
+mean loss: 0.052456
+accuracy: 0.989069
+total IoU: 0.978374
+one epoch time: 66.8112
+2020-11-30 16:55:51.995326
+---- EPOCH 075 EVALUATION ----
+eval mean loss: 0.111307
+eval point avg class IoU: 0.802721
+eval point accuracy: 0.856332
+eval point avg class acc: 0.856332
+------- IoU --------
+class 1, acc: 0.802721 
+
+**** EPOCH 076 ****
+2020-11-30 16:55:58.175580
+ -- 010 / 125 --
+mean loss: 0.056188
+accuracy: 0.988226
+total IoU: 0.976727
+ -- 020 / 125 --
+mean loss: 0.055543
+accuracy: 0.988245
+total IoU: 0.976762
+ -- 030 / 125 --
+mean loss: 0.052724
+accuracy: 0.988947
+total IoU: 0.978135
+ -- 040 / 125 --
+mean loss: 0.053546
+accuracy: 0.988800
+total IoU: 0.977848
+ -- 050 / 125 --
+mean loss: 0.054497
+accuracy: 0.988562
+total IoU: 0.977383
+ -- 060 / 125 --
+mean loss: 0.052731
+accuracy: 0.988739
+total IoU: 0.977729
+ -- 070 / 125 --
+mean loss: 0.055539
+accuracy: 0.988354
+total IoU: 0.976977
+ -- 080 / 125 --
+mean loss: 0.054154
+accuracy: 0.988617
+total IoU: 0.977490
+ -- 090 / 125 --
+mean loss: 0.053576
+accuracy: 0.988855
+total IoU: 0.977956
+ -- 100 / 125 --
+mean loss: 0.054331
+accuracy: 0.988361
+total IoU: 0.976989
+ -- 110 / 125 --
+mean loss: 0.052648
+accuracy: 0.988959
+total IoU: 0.978159
+ -- 120 / 125 --
+mean loss: 0.054693
+accuracy: 0.988300
+total IoU: 0.976870
+one epoch time: 67.0643
+2020-11-30 16:57:05.239928
+---- EPOCH 076 EVALUATION ----
+eval mean loss: 0.132166
+eval point avg class IoU: 0.792905
+eval point accuracy: 0.843183
+eval point avg class acc: 0.843183
+------- IoU --------
+class 1, acc: 0.792905 
+
+**** EPOCH 077 ****
+2020-11-30 16:57:11.152252
+ -- 010 / 125 --
+mean loss: 0.056091
+accuracy: 0.988257
+total IoU: 0.976786
+ -- 020 / 125 --
+mean loss: 0.054341
+accuracy: 0.988556
+total IoU: 0.977371
+ -- 030 / 125 --
+mean loss: 0.055515
+accuracy: 0.988019
+total IoU: 0.976321
+ -- 040 / 125 --
+mean loss: 0.050360
+accuracy: 0.989532
+total IoU: 0.979282
+ -- 050 / 125 --
+mean loss: 0.056373
+accuracy: 0.987793
+total IoU: 0.975880
+ -- 060 / 125 --
+mean loss: 0.056183
+accuracy: 0.988251
+total IoU: 0.976774
+ -- 070 / 125 --
+mean loss: 0.055196
+accuracy: 0.988593
+total IoU: 0.977442
+ -- 080 / 125 --
+mean loss: 0.055253
+accuracy: 0.988354
+total IoU: 0.976977
+ -- 090 / 125 --
+mean loss: 0.051600
+accuracy: 0.989148
+total IoU: 0.978529
+ -- 100 / 125 --
+mean loss: 0.055798
+accuracy: 0.988373
+total IoU: 0.977013
+ -- 110 / 125 --
+mean loss: 0.051829
+accuracy: 0.989221
+total IoU: 0.978672
+ -- 120 / 125 --
+mean loss: 0.056579
+accuracy: 0.988184
+total IoU: 0.976643
+one epoch time: 67.0913
+2020-11-30 16:58:18.243623
+---- EPOCH 077 EVALUATION ----
+eval mean loss: 0.117137
+eval point avg class IoU: 0.798673
+eval point accuracy: 0.851841
+eval point avg class acc: 0.851841
+------- IoU --------
+class 1, acc: 0.798673 
+
+**** EPOCH 078 ****
+2020-11-30 16:58:24.378680
+ -- 010 / 125 --
+mean loss: 0.052981
+accuracy: 0.988965
+total IoU: 0.978171
+ -- 020 / 125 --
+mean loss: 0.049995
+accuracy: 0.989520
+total IoU: 0.979258
+ -- 030 / 125 --
+mean loss: 0.054550
+accuracy: 0.988544
+total IoU: 0.977347
+ -- 040 / 125 --
+mean loss: 0.052522
+accuracy: 0.988928
+total IoU: 0.978099
+ -- 050 / 125 --
+mean loss: 0.054868
+accuracy: 0.988306
+total IoU: 0.976882
+ -- 060 / 125 --
+mean loss: 0.054211
+accuracy: 0.988440
+total IoU: 0.977144
+ -- 070 / 125 --
+mean loss: 0.051778
+accuracy: 0.988922
+total IoU: 0.978087
+ -- 080 / 125 --
+mean loss: 0.053687
+accuracy: 0.988757
+total IoU: 0.977765
+ -- 090 / 125 --
+mean loss: 0.055640
+accuracy: 0.988287
+total IoU: 0.976846
+ -- 100 / 125 --
+mean loss: 0.053105
+accuracy: 0.988770
+total IoU: 0.977789
+ -- 110 / 125 --
+mean loss: 0.054697
+accuracy: 0.988550
+total IoU: 0.977359
+ -- 120 / 125 --
+mean loss: 0.053837
+accuracy: 0.988660
+total IoU: 0.977574
+one epoch time: 66.9630
+2020-11-30 16:59:31.341758
+---- EPOCH 078 EVALUATION ----
+eval mean loss: 0.103874
+eval point avg class IoU: 0.805377
+eval point accuracy: 0.879217
+eval point avg class acc: 0.879217
+------- IoU --------
+class 1, acc: 0.805377 
+
+**** EPOCH 079 ****
+2020-11-30 16:59:37.466480
+ -- 010 / 125 --
+mean loss: 0.055886
+accuracy: 0.987982
+total IoU: 0.976250
+ -- 020 / 125 --
+mean loss: 0.052698
+accuracy: 0.988983
+total IoU: 0.978206
+ -- 030 / 125 --
+mean loss: 0.054802
+accuracy: 0.988300
+total IoU: 0.976870
+ -- 040 / 125 --
+mean loss: 0.055298
+accuracy: 0.988599
+total IoU: 0.977454
+ -- 050 / 125 --
+mean loss: 0.053170
+accuracy: 0.988983
+total IoU: 0.978206
+ -- 060 / 125 --
+mean loss: 0.050552
+accuracy: 0.989410
+total IoU: 0.979043
+ -- 070 / 125 --
+mean loss: 0.052387
+accuracy: 0.988690
+total IoU: 0.977633
+ -- 080 / 125 --
+mean loss: 0.050347
+accuracy: 0.989362
+total IoU: 0.978947
+ -- 090 / 125 --
+mean loss: 0.049134
+accuracy: 0.989673
+total IoU: 0.979557
+ -- 100 / 125 --
+mean loss: 0.054738
+accuracy: 0.988336
+total IoU: 0.976941
+ -- 110 / 125 --
+mean loss: 0.051702
+accuracy: 0.988922
+total IoU: 0.978087
+ -- 120 / 125 --
+mean loss: 0.052120
+accuracy: 0.989062
+total IoU: 0.978362
+one epoch time: 66.6436
+2020-11-30 17:00:44.110077
+---- EPOCH 079 EVALUATION ----
+eval mean loss: 0.128405
+eval point avg class IoU: 0.804443
+eval point accuracy: 0.848141
+eval point avg class acc: 0.848141
+------- IoU --------
+class 1, acc: 0.804443 
+
